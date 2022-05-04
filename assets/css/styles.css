@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,500;1,600;1,700;1,800&display=swap");
+@import url("utility.css");
+
+/* HEADER */
+.top-header .right a {
+    width:  30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    color: var(--gray-100);
+    top:  0;
+}
+
+.top-header .right a span {
+    position: absolute;
+    top:  -5px;
+    right:  -9px;
+    font-size: 10px;
+    padding:  1px 3px;
+    text-transform: uppercase;
+    background-color: #000;
+    opacity: 0.9;
+    width:  auto;
+    white-space: nowrap;
+}
+
+.top-header .right a:hover span {
+    display: inline-block !important;
+}
+
+.top-header .right a:hover {
+    background-color: var(--red-900) !important;
+    color:  var(--gray-100) !important;
+    top:  3px;
+}
+
+.nav li, .nav li a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.nav li a {
+    padding: 10px 17px;
+    color:  var(--gray-500);
+}
+
+.nav li a:hover {
+    background-color: var(--red-900);
+    color:  white;
+} 
+
+.card .card-title a {
+    text-decoration: none;
+    color:  var(--gray-500);
+}
+
+.card .card-title a:hover {
+    color:  var(--red-900);
+}
+
+.card-list div:nth-child(1) {
+    margin-top:  0px;
+}
+
+.news-header h2 {
+    font-size:  25px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.news-header p {
+    line-height: 0;
+}
+
+.news-header {
+    border-bottom: 1px solid #ccc;
+    margin:  10px 0px;
+    padding:  0;
+
+}
+
