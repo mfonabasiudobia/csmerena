@@ -16,16 +16,13 @@
         <section>
             <div class="container bg-white">
                 
-                <div class="row">
-                    <div class="col-md-4 p-2">
-                        <div class="m-0 position-sticky top-0">
-                            this is bad
-                        </div>
-                    </div>
+                <div class="row gx-4">
+                    
+                    <?php require_once("inc/sidebar.php"); ?>
 
                     <div class="col-md-8 bg-gray-100 p-2 ">
 
-                        <h2 class="fw-bold fs-16">STUDY PAST QUESTIONS</h2>
+                        <h2 class="content-title fw-bold fs-16">STUDY PAST QUESTIONS</h2>
                         <div class="row g-3 m-0 mb-3  pb-3 past-questions-list bg-white">
 
                             <?php
@@ -42,7 +39,7 @@
 
                         </div>
 
-                        <header class="news-header">
+                        <header class="content-title news-header">
                             <h2>News Updates</h2>
                             <p>SEE THE BEST PHONES RIGHT NOW IN OUR ALL-NEW</p>
                         </header>
@@ -57,7 +54,7 @@
                                             </div>
                                             <div class='col-md-8'>
                                               <div class='card-body'>
-                                                <h5 class='card-title'><a href='#' class='stretched-link'>ppo Reno8 Lite leaks: a rebranded Reno7 Lite for Europe</a></h5>
+                                                <h5 class='card-title'><a href='view_news.php' class='stretched-link'>ppo Reno8 Lite leaks: a rebranded Reno7 Lite for Europe</a></h5>
                                                 <p class='card-text'>Never mind that the Reno7 Lite is already available in Europe and that it is already a rebranded Reno7 Z.</p>
                                                 <p class='card-text d-flex justify-content-end'>
                                                     <small class='text-muted me-2'><i class='far fa-clock'></i> 3 mins ago</small>

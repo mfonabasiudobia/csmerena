@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,500;1,600;1,700;1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,500;1,600;1,700;1,800&display=swap");
-@import url("utility.css");
+@import url("utilities.css?id=2");
+@import url("media-queries.css?id=1");
 
 /* HEADER */
 .top-header .right a {
@@ -79,9 +81,128 @@
 }
 
 .news-header {
-    border-bottom: 1px solid #ccc;
     margin:  10px 0px;
     padding:  0;
 
 }
+
+.content-title {
+    border-left: 4px solid var(--red-900);
+    padding: 5px;
+    line-height: 1;
+    border-bottom: 1px solid #ccc;
+}
+
+.view-news-header-bg {
+    background-image: url("../images/imgonline-com-ua-blur-b2yCOZmUNHzHsxzm.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.view-news section:nth-child(1) header .btn {
+    position: relative;
+    top:  0;
+    border-radius: 0;
+}
+
+.view-news section:nth-child(1) header .btn:hover{
+    top:  1px;
+}
+
+.view-news section:nth-child(1) footer .btn:hover {
+    background-color: var(--red-900);
+    color: #fff;
+     border-radius: 0;
+     text-decoration: none;
+}
+
+
+.view-news section:nth-child(1) header a.facebook {
+   background-color: var(--blue-900);
+   color: #fff;
+}
+
+.view-news section:nth-child(1) header a.twitter {
+   background-color: var(--blue-300);
+   color: #fff;
+}
+
+.blog-content p {
+    padding: 10px;
+}
+
+.blog-image {
+    object-fit: cover;
+    width:  100%;
+}
+
+.related-articles img {
+    width:  100%;
+    height:  100px;
+    object-fit: cover;
+}
+
+.related-articles p {
+    padding: 7px;
+    line-height: 1;
+}
+.related-articles a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.related-articles a:hover {
+    color:  var(--red-900);
+}
+
+.related-articles main > div {
+    position: relative;
+    top:  0;
+}
+
+.related-articles main > div:hover {
+    top:  5px;
+}
+
+.related-articles main {
+    overflow-x: auto;
+}
+
+.readers-comments .icon {
+    width:   60px;
+    height:  40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-color: var(--pink-500);
+    color: #fff;
+}
+
+.readers-comments p {
+    font-size: 14px;
+    padding:  7px;
+}
+
+.readers-comments header {
+    padding:  5px 10px ;
+     font-size: 12px;
+    background-color: var(--gray-100);
+}
+
+.readers-comments header .name {
+    font-weight: bold;
+}
+
+.readers-comments footer {
+    padding:  5px 10px ;
+     font-size: 12px;
+}
+
+.readers-comments .main-footer a:hover {
+    background-color: var(--red-900) !important;
+    color: #fff;
+    text-decoration: none;
+}
+
 

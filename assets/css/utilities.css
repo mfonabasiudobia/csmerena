@@ -11,8 +11,14 @@
   --gray-100: #EFEBE9;
   --gray-200: #9E9E9E;
   --gray-300: #E0E0E0;
+  --gray-400: #A79DB3;
   --gray-500: #616161;
+  --gray-600: #ccc;
+  --gray-700: #F0F0F0;
   --red-900 : #d50000;
+  --blue-900:  #4D64A4;
+  --blue-300 : #2da2de;
+  --pink-500:  #db80ea;
 }
 
 
@@ -23,6 +29,13 @@ body{
   background-color: var(--gray-100);
 }
 
+h1, h2, .oswald-font {
+    font-family: 'Oswald';
+}
+
+.text-shadow {
+    text-shadow: 1px 1px #000;
+}
 
 .text-gray-100 {
     color:  var(--gray-100) !important;
@@ -55,6 +68,30 @@ body{
 
 .bg-gray-300 {
     background-color:  var(--gray-300) !important;
+}
+
+.text-gray-400 {
+    color:  var(--gray-400) !important;
+}
+
+.bg-gray-400 {
+    background-color:  var(--gray-400) !important;
+}
+
+.text-gray-600 {
+    color:  var(--gray-600) !important;
+}
+
+.bg-gray-600 {
+    background-color:  var(--gray-600) !important;
+}
+
+.text-gray-700 {
+    color:  var(--gray-700) !important;
+}
+
+.bg-gray-700 {
+    background-color:  var(--gray-700) !important;
 }
 
 
@@ -229,3 +266,11 @@ a:hover {
   border-radius: 20px !important;
 }
 
+
+.z-10 {
+    z-index: 10;
+}
+
+.z-20 {
+    z-index: 20;
+}
