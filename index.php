@@ -42,7 +42,7 @@
                         <section>
                             <header class="content-title news-header">
                             <h2>News Updates</h2>
-                            <p>SEE THE BEST PHONES RIGHT NOW IN OUR ALL-NEW</p>
+                            <div>SEE THE BEST PHONES RIGHT NOW IN OUR ALL-NEW</div>
                             </header>
                             <div class="row gy-3 m-0 py-0 card-list">
                                <?php
@@ -81,7 +81,7 @@
                          <section>
                             <header class="content-title news-header">
                             <h2>Gist and Gossips</h2>
-                            <p>SEE THE BEST PHONES RIGHT NOW IN OUR ALL-NEW</p>
+                            <div>SEE THE BEST PHONES RIGHT NOW IN OUR ALL-NEW</div>
                             </header>
                             <div class="row gy-3 m-0 py-0 card-list">
                                <?php
@@ -117,7 +117,7 @@
                          <section>
                             <header class="content-title news-header">
                             <h2>Questions</h2>
-                            <p>SEE THE BEST PHONES RIGHT NOW IN OUR ALL-NEW</p>
+                            <div>SEE THE BEST PHONES RIGHT NOW IN OUR ALL-NEW</div>
                             </header>
                             <div class="row gy-3 m-0 py-0 card-list">
                                <?php

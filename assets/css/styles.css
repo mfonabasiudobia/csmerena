@@ -47,6 +47,10 @@
     font-size: 14px;
 }
 
+.nav li {
+    margin: 0;
+}
+
 .nav li a {
     padding: 10px 17px;
     color:  var(--gray-500);
@@ -75,13 +79,10 @@
 
 .news-header h2 {
     font-size:  25px;
-    line-height: 1.5;
+    line-height: 1;
     font-weight: bold;
 }
 
-.news-header p {
-    line-height: 0;
-}
 
 .news-header {
     margin:  10px 0px;
