@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,500;1,600;1,700;1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,500;1,600;1,700;1,800&display=swap");
-@import url("utilities.css?id=2");
+@import url("utilities.css?id=3");
 @import url("media-queries.css?id=1");
 
 /* HEADER */
-.top-header .right a {
+.top-header .right a, .mobile-nav .socials a {
     width:  30px;
     height: 30px;
     display: flex;
@@ -16,7 +16,7 @@
     top:  0;
 }
 
-.top-header .right a span {
+.top-header .right a span, .mobile-nav .socials a span {
     position: absolute;
     top:  -5px;
     right:  -9px;
@@ -33,33 +33,55 @@
     display: inline-block !important;
 }
 
-.top-header .right a:hover {
+.top-header .right a:hover, .mobile-nav .socials a:hover {
     background-color: var(--red-900) !important;
     color:  var(--gray-100) !important;
     top:  3px;
 }
 
-.nav li, .nav li a {
+.destop-nav li, .destop-nav li a {
     display: inline-block;
     text-decoration: none;
+    white-space: nowrap;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 14px;
 }
 
-.nav li {
+.destop-nav li {
     margin: 0;
 }
 
-.nav li a {
+.destop-nav li a, .mobile-nav li a {
     padding: 10px 17px;
     color:  var(--gray-500);
     font-family: 'Oswald';
 }
 
+.mobile-nav {
+    position: absolute;
+    top: 50px;
+    width:  100%;
+    min-height: 100vh;
+    z-index: 100;
+}
 
+.mobile-nav li a {
+    display: block;
+    text-decoration: none;
+    color:  var(--gray-100);
+}
 
-.nav li a:hover,.nav li a.search {
+.mobile-nav li a:hover {
+    background-color: var(--gray-500);
+    color: #fff;
+}
+
+.mobile-nav li a {
+    border-bottom: 1px solid #aaa;
+}
+
+.destop-nav li a:hover,.destop-nav li a.search {
     background-color: var(--red-900);
     color:  white;
 } 
