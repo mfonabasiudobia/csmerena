@@ -91,10 +91,10 @@
                                   echo  "
                                 <div class='card bg-white p-0 ps-3'>
                                               <div class='row g-0'>
-                                                <div class='col-2'>
+                                                <div class='col-4 col-md-2'>
                                                   <img src='assets/images/gsmarena_002.jpg' class='w-100 h-100' alt='...'>
                                                 </div>
-                                                <div class='col-10'>
+                                                <div class='col-8 ol-md-10'>
                                                   <div class='card-body py-0'>
                                                     <h5 class='card-title lh-1'><a href='view_news.php' class='stretched-link fs-14 fw-bold'>ppo Reno8 Lite leaks: a rebranded Reno7 Lite for Europe</a></h5>
                                                     <div class='card-text fs-13'>
