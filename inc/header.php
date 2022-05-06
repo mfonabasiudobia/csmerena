@@ -10,7 +10,7 @@
 </div>
 <section class="bg-gray-200 top-header">
     <div class="container text-gray-100 my-0">
-        <div class="row bg-gray-500 py-2 position-sticky top-0">
+        <div class="row bg-gray-500 py-2">
             <div class="col d-flex justify-content-start align-items-center left">
                 <button class="btn text-gray-100" x-on:click="nav = !nav">
                     <i :class="nav ? 'fas fa-times' : 'fas fa-bars'" ></i>
