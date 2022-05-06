@@ -22,7 +22,7 @@
 
                     <section class="questions-wrapper col-lg-8 order-1 order-md-2 bg-white border py-3">
                         <h2>Government Past Questions</h2>
-                        <main class="row gy-3">
+                        <main class="d-grid gap-3">
                            <section class="p-3 bg-gray-100">
                                 <form class="row g-2">
 

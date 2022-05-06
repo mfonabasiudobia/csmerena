@@ -19,7 +19,7 @@
                 <div class="row gx-4">
                     
                     <section class="questions-wrapper col-lg-8 order-2 order-md-1  py-3">
-                        <main class="row gy-3 px-2 bg-white border">
+                        <main class="d-grid gap-3 px-2 bg-white border">
                             <h2>Marketplace</h2>
                            <section class="p-3 bg-gray-100">
                                 <form class="row g-2">
