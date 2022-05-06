@@ -50,9 +50,12 @@
 .nav li a {
     padding: 10px 17px;
     color:  var(--gray-500);
+    font-family: 'Oswald';
 }
 
-.nav li a:hover {
+
+
+.nav li a:hover,.nav li a.search {
     background-color: var(--red-900);
     color:  white;
 } 
@@ -89,7 +92,6 @@
 .content-title {
     border-left: 4px solid var(--red-900);
     padding: 5px;
-    line-height: 1;
     border-bottom: 1px solid #ccc;
 }
 
@@ -205,4 +207,38 @@
     text-decoration: none;
 }
 
+.page-footer a {
+    color:  var(--gray-100);
+    font-size: 14px;
+}
 
+.page-footer ul, .page-footer li {
+    list-style: none;
+    margin: 0;
+    font-size: 14px;
+    padding: 0;
+}
+
+.page-footer li {
+    padding-left: 10px;
+}
+
+.page-footer li { 
+   margin:  7px 0px;
+}
+
+.load-more {
+    padding: 5px 20px;
+    font-family: 'Oswald';
+    background-color: #fff;
+    font-size: 14px;
+    text-decoration: none !important;
+    position: relative;
+    top:  0;
+}
+
+.load-more:hover {
+    background-color: var(--red-900);
+    color: #fff;
+    top: 1px;
+}

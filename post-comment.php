@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+order-1 order-md-2 <!DOCTYPE html>
 <html>
 <head>
     <title>Home Page</title>
@@ -20,7 +20,7 @@
                     
                     <?php require_once("inc/sidebar.php"); ?>
 
-                    <div class="col-md-8 bg-white border p-0 view-news">
+                    <div class="col-lg-8 order-1 order-md-2 bg-white border p-0 view-news">
 
                     <main>
                       <section class="text-white position-relative view-news-header-bg ">

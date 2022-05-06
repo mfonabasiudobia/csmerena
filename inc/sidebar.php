@@ -1,4 +1,4 @@
-<div class="col-md-4 ps-0 overflow-hidden">
+<div class="col-lg-4 ps-0 overflow-hidden order-2 order-md-1">
                         <section>
                             <h6 class="content-title oswald-font">RELATED ARTICLES</h6>
 
