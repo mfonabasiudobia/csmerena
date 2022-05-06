@@ -48,7 +48,7 @@
 
                 <span class="me-2 d-none d-md-inline-block">|</span>
 
-                 <a href="#" class="me-2 fs-18">
+                 <a href="#" :class="nav ? 'me-3 fs-18' : 'me-2 fs-18'">
                     <i class="fas fa-sign-in-alt"></i>
                     <span :class="nav ? 'inline-block' : 'd-none' ">Login</span>
                 </a>
