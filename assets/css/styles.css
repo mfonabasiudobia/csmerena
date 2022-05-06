@@ -99,6 +99,10 @@
     margin-top:  0px;
 }
 
+.card-list img {
+    object-fit: cover;
+}
+
 .news-header h2 {
     font-size:  25px;
     line-height: 1;

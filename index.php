@@ -50,10 +50,10 @@
                                foreach ([1,2,3,4] as $key => $value) {
                                   echo  "<div class='card bg-white p-0'>
                                               <div class='row g-0'>
-                                                <div class='col-md-4'>
+                                                <div class='col-4'>
                                                   <img src='assets/images/gsmarena_00.jpg' class='w-100 h-100' alt='...'>
                                                 </div>
-                                                <div class='col-md-8'>
+                                                <div class='col-8'>
                                                   <div class='card-body'>
                                                     <h5 class='card-title'><a href='view_news.php' class='stretched-link'>ppo Reno8 Lite leaks: a rebranded Reno7 Lite for Europe</a></h5>
                                                     <p class='card-text'>Never mind that the Reno7 Lite is already available in Europe and that it is already a rebranded Reno7 Z.</p>
@@ -89,10 +89,10 @@
                                foreach ([1,2,3] as $key => $value) {
                                   echo  "<div class='card bg-white p-0'>
                                               <div class='row g-0'>
-                                                <div class='col-md-4'>
+                                                <div class='col-4'>
                                                   <img src='assets/images/gsmarena_001.jpg' class='w-100 h-100' alt='...'>
                                                 </div>
-                                                <div class='col-md-8'>
+                                                <div class='col-8'>
                                                   <div class='card-body'>
                                                     <h5 class='card-title'><a href='view_news.php' class='stretched-link'>ppo Reno8 Lite leaks: a rebranded Reno7 Lite for Europe</a></h5>
                                                     <p class='card-text'>Never mind that the Reno7 Lite is already available in Europe and that it is already a rebranded Reno7 Z.</p>
@@ -125,10 +125,10 @@
                                foreach ([1,2,3,4] as $key => $value) {
                                   echo  "<div class='card bg-white p-0'>
                                               <div class='row g-0'>
-                                                <div class='col-md-4'>
+                                                <div class='col-4'>
                                                   <img src='assets/images/gsmarena_002.jpg' class='w-100 h-100' alt='...'>
                                                 </div>
-                                                <div class='col-md-8'>
+                                                <div class='col-8'>
                                                   <div class='card-body'>
                                                     <h5 class='card-title'><a href='view_news.php' class='stretched-link'>ppo Reno8 Lite leaks: a rebranded Reno7 Lite for Europe</a></h5>
                                                     <p class='card-text'>Never mind that the Reno7 Lite is already available in Europe and that it is already a rebranded Reno7 Z.</p>
