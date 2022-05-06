@@ -69,7 +69,7 @@
         </div>
     </section>
     <section class="border-top py-3 text-center border-secondary">
-        <div class="container fs-12 text-gray-400">Copyright © 2022 Myschool Services. All Names, Acronyms and Trademarks displayed on this website are those of their respective owners.</pdiv>
+        <div class="container fs-12 text-gray-100">Copyright © 2022 Myschool Services. All Names, Acronyms and Trademarks displayed on this website are those of their respective owners.</pdiv>
     </section>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>

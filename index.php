@@ -23,7 +23,7 @@
                     <div class="col-lg-8 order-1 order-md-2 bg-gray-100 p-2 ">
 
                         <h2 class="content-title fw-bold fs-16">STUDY PAST QUESTIONS</h2>
-                        <div class="row g-3 m-0 mb-3  pb-3 past-questions-list bg-white">
+                        <div class="row g-3 m-0 mb-3  pb-3 past-questions-list ">
 
                             <?php
 
