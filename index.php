@@ -56,7 +56,7 @@
                                                 <div class='col-8'>
                                                   <div class='card-body'>
                                                     <h5 class='card-title'><a href='view_news.php' class='stretched-link'>ppo Reno8 Lite leaks: a rebranded Reno7 Lite for Europe</a></h5>
-                                                    <p class='card-text'>Never mind that the Reno7 Lite is already available in Europe and that it is already a rebranded Reno7 Z.</p>
+                                                    <p class='card-text d-none d-md-block'>Never mind that the Reno7 Lite is already available in Europe and that it is already a rebranded Reno7 Z.</p>
                                                     <p class='card-text d-flex justify-content-end'>
                                                         <small class='text-muted me-2'><i class='far fa-clock'></i> 3 mins ago</small>
                                                         <small class='text-muted'><i class='far fa-comment-alt'></i> 2</small>
@@ -95,7 +95,7 @@
                                                 <div class='col-8'>
                                                   <div class='card-body'>
                                                     <h5 class='card-title'><a href='view_news.php' class='stretched-link'>ppo Reno8 Lite leaks: a rebranded Reno7 Lite for Europe</a></h5>
-                                                    <p class='card-text'>Never mind that the Reno7 Lite is already available in Europe and that it is already a rebranded Reno7 Z.</p>
+                                                    <p class='card-text d-none d-md-block'>Never mind that the Reno7 Lite is already available in Europe and that it is already a rebranded Reno7 Z.</p>
                                                     <p class='card-text d-flex justify-content-end'>
                                                         <small class='text-muted me-2'><i class='far fa-clock'></i> 3 mins ago</small>
                                                         <small class='text-muted'><i class='far fa-comment-alt'></i> 2</small>
@@ -131,7 +131,7 @@
                                                 <div class='col-8'>
                                                   <div class='card-body'>
                                                     <h5 class='card-title'><a href='view_news.php' class='stretched-link'>ppo Reno8 Lite leaks: a rebranded Reno7 Lite for Europe</a></h5>
-                                                    <p class='card-text'>Never mind that the Reno7 Lite is already available in Europe and that it is already a rebranded Reno7 Z.</p>
+                                                    <p class='card-text d-none d-md-block'>Never mind that the Reno7 Lite is already available in Europe and that it is already a rebranded Reno7 Z.</p>
                                                     <p class='card-text d-flex justify-content-end'>
                                                         <small class='text-muted me-2'><i class='far fa-clock'></i> 3 mins ago</small>
                                                         <small class='text-muted'><i class='far fa-comment-alt'></i> 2</small>
