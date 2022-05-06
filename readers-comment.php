@@ -37,7 +37,7 @@
                              </button>
                           </header>
 
-                          <main class="d-flex flex-column align-items-start justify-content-end p-3 position-relative z-10" style="min-height: 35vh;background: rgba(201, 185, 219, 0.2);">
+                          <main class="d-flex flex-column align-items-start justify-content-end p-3 position-relative z-10 pt-5" style="background: rgba(201, 185, 219, 0.2);">
 
                                <div class="bg-gray-100 text-gray-500 fs-25 px-2 py-0">Comments</div> 
                               <h1 class="fw-bold text-shadow">Samsung Galaxy Z Fold4 to come in Beige, Z Flip4 will have Blue variant</h1>
@@ -45,10 +45,10 @@
 
                           <footer class="fs-14 fw-bold oswald-font position-relative z-10 d-flex justify-content-between align-items-center" style="background: rgba(168, 157, 179, 0.6);border: 1px solid #bbb">
                               
-                              <a href="#" class="btn text-white facebook text-shadow">
+                              <a href="view_news.php" class="btn text-white facebook text-shadow">
                                  <i class="fas fa-eye fs-16"></i> READ
                              </a>
-                             <a href="#" class="btn text-white text-shadow">
+                             <a href="post-comment.php" class="btn text-white text-shadow">
                                 <i class="fas fa-pen-alt fs-16"></i> POST YOUR COMMENT
                              </a>
 
@@ -57,11 +57,11 @@
 
 
                        <section class="readers-comments bg-white overflow-hidden">
-                        <footer class='main-footer bg-gray-100 py-3 d-flex align-items-center justify-content-between'>
+                         <footer class='main-footer bg-gray-100 py-3 d-md-flex align-items-center justify-content-between'>
                                                      <div>
                                                          <a href="#" class="px-3 text-sm py-2 fw-bold bg-white border">POST YOUR COMMENT</a>
                                                      </div>
-                                                     <div class="d-flex align-items-center">
+                                                     <div class="d-flex align-items-center justify-content-end">
                                                          <div class="d-flex me-3">
                                                              <span>Sort by:</span> &nbsp;
                                                              <select>
@@ -132,11 +132,11 @@
 
                               ?>
                           </main>
-                          <footer class='main-footer bg-gray-100 py-3 d-flex align-items-center justify-content-between'>
+                          <footer class='main-footer bg-gray-100 py-3 d-md-flex align-items-center justify-content-between'>
                                                      <div>
                                                          <a href="#" class="px-3 text-sm py-2 fw-bold bg-white border">POST YOUR COMMENT</a>
                                                      </div>
-                                                     <div class="d-flex align-items-center">
+                                                     <div class="d-flex align-items-center justify-content-end">
                                                          <div class="d-flex me-3">
                                                              <span>Sort by:</span> &nbsp;
                                                              <select>

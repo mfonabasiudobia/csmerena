@@ -37,16 +37,16 @@
                              </button>
                           </header>
 
-                          <main class="d-flex align-items-end p-3 position-relative z-10" style="min-height: 35vh;background: rgba(201, 185, 219, 0.2);">
+                          <main class="d-flex align-items-end p-3 position-relative z-10 pt-5" style="background: rgba(201, 185, 219, 0.2);">
                               <h1 class="fw-bold text-shadow">Samsung Galaxy Z Fold4 to come in Beige, Z Flip4 will have Blue variant</h1>
                           </main>
 
                           <footer class="fs-14 fw-bold oswald-font position-relative z-10 d-flex justify-content-end align-items-center" style="background: rgba(168, 157, 179, 0.6);border: 1px solid #bbb">
                               
-                              <a href="#" class="btn text-white facebook text-shadow">
+                              <a href="readers-comment.php" class="btn text-white facebook text-shadow">
                                  <i class="fas fa-comment-alt fs-16"></i> COMMENTS (4)
                              </a>
-                             <a href="#" class="btn text-white text-shadow">
+                             <a href="post-comment.php" class="btn text-white text-shadow">
                                 <i class="fas fa-pen-alt fs-16"></i> POST YOUR COMMENT
                              </a>
 
@@ -99,7 +99,9 @@
                                  <div class='col-12'>
                                       <main>
                                           <div class='d-flex align-items-start border-bottom pb-2'>
-                                              <div class='icon'>?</div>
+                                              <div>
+                                                    <div class='icon'>?</div>
+                                              </div>
                                               <div>
                                                   <header class='d-flex align-items-center justify-content-between'>
                                                      <div> <span class='name'>Anonymous</span></div>
@@ -121,12 +123,12 @@
 
                               ?>
                           </main>
-                          <footer class='main-footer bg-gray-100 py-3 d-flex align-items-center justify-content-between'>
-                                                     <div>
+                          <footer class='main-footer bg-gray-100 d-md-flex align-items-center justify-content-between'>
+                                                     <div class="py-2">
                                                          <a href="readers-comment.php" class="px-3 text-sm py-2 fw-bold bg-white border">READ ALL COMMENTS</a>
                                                          <a href="post-comment.php" class="px-3 text-sm py-2 fw-bold bg-white border">POST YOUR COMMENT</a>
                                                      </div>
-                                                     <div>
+                                                     <div class="text-end py-2">
                                                          Total reader comments: <strong>11</strong>
                                                      </div>
                          </footer>

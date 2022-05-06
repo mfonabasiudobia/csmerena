@@ -265,7 +265,40 @@
 }
 
 .load-more:hover {
+    background-color: var(--red-900) !important;
+    color: #fff !important;
+    top: 1px;
+}
+
+.questions-wrapper .question-item .question {
+    font-weight: bold;
+}
+
+.questions-wrapper .question-item .option span:nth-child(1) {
+    font-weight: bold;
+}
+
+.questions-wrapper .question-item ul, .questions-wrapper .question-item ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list-style-none {
+     margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.option-number {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
     background-color: var(--red-900);
     color: #fff;
-    top: 1px;
+}
+
+.object-cover {
+    object-fit: cover;
+    
 }

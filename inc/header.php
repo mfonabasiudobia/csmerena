@@ -15,7 +15,7 @@
                 <button class="btn text-gray-100" x-on:click="nav = !nav">
                     <i :class="nav ? 'fas fa-times' : 'fas fa-bars'" ></i>
                 </button>
-               <a href="#" class="ms-2 fs-25 text-gray-100 fw-bold">GSMERAZE</a>
+               <a href="index.php" class="ms-2 fs-25 text-gray-100 fw-bold">GSMERAZE</a>
             </div>
             <div class="col d-flex align-items-center d-none d-md-block">
                 <div class="input-group ">
@@ -79,7 +79,7 @@
             <li class="flex-fill"><a href="#">Videos</a></li>
             <li class="d-none flex-fill d-md-inline-block"><a href="#">Features</a></li>
             <li class="d-none flex-fill d-md-inline-block"><a href="#">Phone number</a></li>
-            <li class="d-none flex-fill d-md-inline-block"><a href="#">Deals</a></li>
+            <li class="d-none flex-fill d-md-inline-block"><a href="marketplace.php">Buy an Item</a></li>
             <li class="d-none flex-fill d-md-inline-block"><a href="#">Merge</a></li>
             <li class="d-none flex-fill d-md-inline-block"><a href="#">Coverage</a></li>
             <li class="d-none flex-fill d-md-inline-block"><a href="#">Contact</a></li>
@@ -122,7 +122,7 @@
             <li class="flex-fill"><a href="#">Videos</a></li>
             <li class="flex-fill"><a href="#">Features</a></li>
             <li class="flex-fill"><a href="#">Phone number</a></li>
-            <li class="flex-fill"><a href="#">Deals</a></li>
+            <li class="flex-fill"><a href="marketplace.php">Buy an Item</a></li>
             <li class="flex-fill"><a href="#">Merge</a></li>
             <li class="flex-fill"><a href="#">Coverage</a></li>
             <li class="flex-fill"><a href="#">Contact</a></li>

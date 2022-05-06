@@ -31,7 +31,7 @@
 
                                     echo "<div class='col-6 col-md-4 col-lg-4 d-flex'>
                                             <img src='assets/images/gsmarena_00.jpg' class='me-2' style='width: 30px;height: 30px;' alt='...'>
-                                            <a href='#'>{$value}</a>
+                                            <a href='question.php'>{$value}</a>
                                         </div>";
                                }
 

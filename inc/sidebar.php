@@ -1,5 +1,5 @@
-<div class="col-lg-4  overflow-hidden order-2 order-md-1 p-2">
-                        <main class="row gy-3">
+<div class="col-lg-4 overflow-hidden order-2 order-md-1">
+                        <main class="row gy-3 bg-white py-2">
                             <section>
                             <h6 class="content-title oswald-font fs-20">Marketplace</h6>
 
