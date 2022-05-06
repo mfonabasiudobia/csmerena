@@ -24,7 +24,7 @@
 
 body{
   font-family: Roboto, "Helvetica Neue", Arial, Helvetica, sans-serif;
-  overflow-x: hidden;
+  overflow: hidden;
   color: #4E545A;
   background-color: var(--gray-100);
 }
@@ -108,7 +108,9 @@ button:hover {
 }
 
 .page-wrapper {
-  min-height: 100vh;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .alert {
