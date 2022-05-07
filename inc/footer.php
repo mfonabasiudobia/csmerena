@@ -72,5 +72,30 @@
         <div class="container fs-12 text-gray-100">Copyright © 2022 Myschool Services. All Names, Acronyms and Trademarks displayed on this website are those of their respective owners.</pdiv>
     </section>
 </footer>
+<footer class="d-block d-md-none">
+        <nav class="destop-nav" >
+          <ul class="container my-0 bg-gray-700 d-flex align-items-center overflow-auto">
+            <li class="flex-fill"><a href="#">Home</a></li>
+            <li class="flex-fill"><a href="#">News</a></li>
+            <li class="flex-fill"><a href="#">Reviews</a></li>
+            <li class="flex-fill"><a href="#">Videos</a></li>
+         </ul>
+        </nav>
+        <section class="fs-14 bg-black py-3 d-grid gap-3 d-flex flex-column text-center justify-content-center align-items-center">
+            <div class="d-flex align-items-center justify-content-center">
+                            <a href="#" class="me-3"><i class="fs-17 fab fa-facebook"></i></a>
+                            <a href="#" class="me-3"><i class="fs-17 fab fa-twitter-square"></i></a>
+                            <a href="#" class="me-3"><i class="fs-17 fab fa-youtube"></i></a>
+                            <a href="#" class="me-3"><i class="fs-17 fab fa-instagram"></i></a>
+            </div>
+            <div>&copy; 2000-2022 GSMArena.com</div>
+            <div class="d-flex align-items-center justify-content-center">
+                            <a href="#" class="me-3 text-white">Privacy</a>
+                            <a href="#" class="me-3 text-white">Terms</a>
+                            <a href="#" class="me-3 text-white">Glossary</a>
+                            <a href="#" class="me-3 text-white">Contact us</a>
+            </div>
+        </section>
+</footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>

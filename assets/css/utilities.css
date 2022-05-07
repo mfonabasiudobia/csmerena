@@ -102,6 +102,14 @@ h1, h2, .oswald-font {
     background-color:  var(--red-900) !important;
 }
 
+.text-black {
+    color: #000 !important;
+}
+
+.bg-black {
+    background-color: #000 !important;
+}
+
 
 button:hover {
   opacity: 0.9;

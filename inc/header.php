@@ -12,7 +12,7 @@
     <div class="container text-gray-100 my-0">
         <div class="row bg-gray-500 py-2">
             <div class="col d-flex justify-content-start align-items-center left">
-                <button class="btn text-gray-100" x-on:click="nav = !nav">
+                <button class="btn text-gray-100 d-block d-md-none" x-on:click="nav = !nav">
                     <i :class="nav ? 'fas fa-times' : 'fas fa-bars'" ></i>
                 </button>
                <a href="index.php" class="ms-2 fs-25 text-gray-100 fw-bold">GSMERAZE</a>
@@ -29,49 +29,67 @@
 
                 <a href="#" class="me-2 d-none d-md-inline-block fs-18">
                     <i class="fas fa-lightbulb"></i>
-                    <span :class="nav ? 'inline-block' : 'd-none' ">TIP US</span>
+                    <span>TIP US</span>
                 </a>
 
                 <span class="me-2 d-none d-md-inline-block">|</span>
 
                 <a href="#" class="me-2 d-none d-md-inline-block fs-18">
                     <i class="fab fa-youtube"></i>
-                    <span :class="nav ? 'inline-block' : 'd-none' ">1.9M</span>
+                    <span>1.9M</span>
                 </a>
 
                 <a href="#" class="me-2 d-none d-md-inline-block fs-18">
                     <i class="fas fa-rss"></i>
-                    <span :class="nav ? 'inline-block' : 'd-none' ">RSS</span>
+                    <span>RSS</span>
                 </a>
 
 
                 <a href="#" class="me-2 d-none d-md-inline-block fs-18">
                     <i class="fab fa-instagram"></i>
-                    <span :class="nav ? 'inline-block' : 'd-none' ">1.9M</span>
+                    <span>1.9M</span>
                 </a>
 
                 <a href="#" class="me-2 d-none d-md-inline-block fs-18">
                     <i class="fas fa-shopping-cart"></i>
-                    <span :class="nav ? 'inline-block' : 'd-none' ">CART</span>
+                    <span>CART</span>
                 </a>
 
                 <span class="me-2 d-none d-md-inline-block">|</span>
 
-                 <a href="#" :class="nav ? 'me-3 fs-18' : 'me-2 fs-18'">
+                 <a href="#" class="me-3">
                     <i class="fas fa-sign-in-alt"></i>
-                    <span :class="nav ? 'inline-block' : 'd-none' ">Login</span>
+                    <span>Login</span>
                 </a>
 
-                <a href="#" class="me-2 fs-18">
+                <a href="#" class="me-3 fs-18">
                     <i class="fas fa-user-plus"></i>
-                    <span :class="nav ? 'inline-block' : 'd-none' ">Signup</span>
+                    <span>Signup</span>
                 </a>
+
+                <span class="dropup rounded-0">
+                    <a href="#" class="me-2 fs-18" type="button" id="profile-dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-user-circle"></i>
+                    <span>Profile</span>
+                </a>
+                  <ul class="dropdown-menu py-0 fs-14" aria-labelledby="profile-dropdown">
+                    <li class="py-1">
+                        <a href='#' class="dropdown-item d-inline-block w-100 text-gray-500"><i class="me-2 fas fa-th"></i> Dashboard</a></li>
+                    <li class="py-1">
+                        <a href='#' class="dropdown-item d-inline-block w-100 text-gray-500"><i class="me-2 fas fa-user"></i> View Profile</a></li>
+                    <li class="py-1">
+                        <a href='#' class="dropdown-item d-inline-block w-100 text-gray-500"><i class="me-2 fas fa-user-circle"></i> Update Profile</a></li>
+                    <li class="m-0 p-0"><hr class="p-0 m-0 dropdown-divider"></li>
+                    <li class="py-1">
+                        <a href='#' class="dropdown-item d-inline-block w-100 text-gray-500"><i class="me-2 fas fa-sign-out-alt"></i> Logout</a></li>
+                  </ul>
+                </span>
 
             </div>
           </div>
     </div>
 </section>
-<nav class="destop-nav p-0" :class="nav ? 'd-none d-md-block' : 'd-block d-md-none'" >
+<nav class="destop-nav p-0" >
           <ul class="container p-0 bg-gray-700 d-flex align-items-center overflow-auto">
             <li class="flex-fill"><a href="#">Home</a></li>
             <li class="flex-fill"><a href="#">News</a></li>
@@ -91,28 +109,28 @@
         <div class="container socials d-flex justify-content-center pt-2">
                 <a href="#" class="me-2 fs-18">
                     <i class="fas fa-lightbulb"></i>
-                    <span :class="nav ? 'inline-block' : 'd-none' ">TIP US</span>
+                    <span>TIP US</span>
                 </a>
-
+                    <!-- :class="nav ? 'inline-block' : 'd-none' " -->
                 <a href="#" class="me-2 fs-18">
                     <i class="fab fa-youtube"></i>
-                    <span :class="nav ? 'inline-block' : 'd-none' ">1.9M</span>
+                    <span>1.9M</span>
                 </a>
 
                 <a href="#" class="me-2 fs-18">
                     <i class="fas fa-rss"></i>
-                    <span :class="nav ? 'inline-block' : 'd-none' ">RSS</span>
+                    <span>RSS</span>
                 </a>
 
 
                 <a href="#" class="me-2 fs-18">
                     <i class="fab fa-instagram"></i>
-                    <span :class="nav ? 'inline-block' : 'd-none' ">1.9M</span>
+                    <span>1.9M</span>
                 </a>
 
                 <a href="#" class="me-2 fs-18">
                     <i class="fas fa-shopping-cart"></i>
-                    <span :class="nav ? 'inline-block' : 'd-none' ">CART</span>
+                    <span>CART</span>
                 </a>
         </div>
         <ul class="container">
@@ -130,12 +148,12 @@
 </nav>
 </header>
 
-<section class="container d-grid gap-1 py-3 fs-14">
-    <div class="d-flex justify-content-center"><span class="oswald-font fw-bold text-gray-500 me-2">SPECIAL:</span> <a href="#" class="text-primary">JAMB introduces new texts for language subjects and Literature-in-English</a></div>
+<section class="container d-grid gap-1 pb-3 fs-14">
+    <div class="d-flex justify-content-center"><span class="oswald-font fw-bold text-gray-500 me-2 text-nowrap">SPECIAL:</span> <a href="#" class="text-primary">JAMB introduces new texts for language subjects and Literature-in-English</a></div>
 
-    <div class="d-flex justify-content-center"><span class="oswald-font fw-bold text-gray-500 me-2">FREE UPDATES:</span> <a href="#" class="text-primary">JAMB mock exam questions for 2022 UTME</a></div>
+    <div class="d-flex justify-content-center"><span class="oswald-font fw-bold text-gray-500 me-2 text-nowrap">FREE UPDATES:</span> <a href="#" class="text-primary">JAMB mock exam questions for 2022 UTME</a></div>
 
-    <div class="d-flex justify-content-center"><span class="oswald-font fw-bold text-gray-500 me-2">AD:</span> <a href="#" class="text-primary">Mock questions for 2022 UTME</a></div>
+    <div class="d-flex justify-content-center"><span class="oswald-font fw-bold text-gray-500 me-2 text-nowrap">AD:</span> <a href="#" class="text-primary">Mock questions for 2022 UTME</a></div>
 
-    <div class="d-flex justify-content-center"><span class="oswald-font fw-bold text-gray-500 me-2">ONLINE CAFE:</span> <a href="#" class="text-primary">For 2022 UTME</a></div>
+    <div class="d-flex justify-content-center"><span class="oswald-font fw-bold text-gray-500 me-2 text-nowrap">ONLINE CAFE:</span> <a href="#" class="text-primary">For 2022 UTME</a></div>
 </section>
