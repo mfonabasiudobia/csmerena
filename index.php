@@ -22,22 +22,29 @@
 
                     <div class="col-lg-8 order-1 order-md-2 bg-gray-100 p-2 ">
 
-                        <h2 class="content-title fw-bold fs-16">STUDY PAST QUESTIONS</h2>
-                        <div class="row g-3 m-0 mb-3  pb-3 past-questions-list ">
+                      <section class="related-articles overflow-hidden">
+                          <h6 class="oswald-font p-2 border-bottom">FEATURED</h6>
 
+                          <main class="row bg-gray-100 p-2 gx-2 d-flex flex-nowrap" >
                             <?php
 
-                               foreach (["Commerce","Agric Science","Government","History","Economics","Insurance","Mathematics","Data Processing","Chemistry","Fine Arts","Biology"] as $key => $value) {
+                           foreach ([1,2,3,4,5,6] as $key => $value) {
+                              echo  "<div class='col-5 col-md-3'>
+                                  <div class='bg-white border'>
+                                      <img src='assets/images/gsmarena_00.jpg' />
+                                      <p>
+                                          <a href='#' class='stretched-link'>Samsung Galaxy Z Fold4 battery capacities revealed</a>
+                                      </p>
+                                  </div>
+                              </div>";
+                          }
 
-                                    echo "<div class='col-6 col-md-4 col-lg-4 d-flex'>
-                                            <img src='assets/images/gsmarena_00.jpg' class='me-2' style='width: 30px;height: 30px;' alt='...'>
-                                            <a href='question.php'>{$value}</a>
-                                        </div>";
-                               }
+                              ?>
+                          </main>
+                      </section>
 
-                           ?>
 
-                        </div>
+                       
 
                         <section>
                             <header class="content-title news-header">
@@ -77,6 +84,25 @@
                             </div>
                         </section>
 
+
+                       <section>
+                          <h2 class="content-title fw-bold fs-16">STUDY PAST QUESTIONS</h2>
+                          <div class="row g-3 m-0 mb-3  pb-3 past-questions-list ">
+
+                              <?php
+
+                                 foreach (["Commerce","Agric Science","Government","History","Economics","Insurance","Mathematics","Data Processing","Chemistry","Fine Arts","Biology"] as $key => $value) {
+
+                                      echo "<div class='col-6 col-md-4 col-lg-4 d-flex'>
+                                              <img src='assets/images/gsmarena_00.jpg' class='me-2' style='width: 30px;height: 30px;' alt='...'>
+                                              <a href='question.php'>{$value}</a>
+                                          </div>";
+                                 }
+
+                             ?>
+
+                          </div>
+                       </section>
 
                          <section>
                             <header class="content-title news-header">
