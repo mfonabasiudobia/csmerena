@@ -130,12 +130,12 @@
 </nav>
 </header>
 
-<section class="container d-grid gap-1 text-center py-3 fs-14">
-    <div><span class="oswald-font fw-bold text-gray-500 me-2">SPECIAL:</span> <a href="#" class="text-primary">JAMB introduces new texts for language subjects and Literature-in-English</a></div>
+<section class="container d-grid gap-1 py-3 fs-14">
+    <div class="d-flex justify-content-center"><span class="oswald-font fw-bold text-gray-500 me-2">SPECIAL:</span> <a href="#" class="text-primary">JAMB introduces new texts for language subjects and Literature-in-English</a></div>
 
-    <div><span class="oswald-font fw-bold text-gray-500 me-2">FREE UPDATES:</span> <a href="#" class="text-primary">JAMB mock exam questions for 2022 UTME</a></div>
+    <div class="d-flex justify-content-center"><span class="oswald-font fw-bold text-gray-500 me-2">FREE UPDATES:</span> <a href="#" class="text-primary">JAMB mock exam questions for 2022 UTME</a></div>
 
-    <div><span class="oswald-font fw-bold text-gray-500 me-2">AD:</span> <a href="#" class="text-primary">Mock questions for 2022 UTME</a></div>
+    <div class="d-flex justify-content-center"><span class="oswald-font fw-bold text-gray-500 me-2">AD:</span> <a href="#" class="text-primary">Mock questions for 2022 UTME</a></div>
 
-    <div><span class="oswald-font fw-bold text-gray-500 me-2">ONLINE CAFE:</span> <a href="#" class="text-primary">For 2022 UTME</a></div>
+    <div class="d-flex justify-content-center"><span class="oswald-font fw-bold text-gray-500 me-2">ONLINE CAFE:</span> <a href="#" class="text-primary">For 2022 UTME</a></div>
 </section>

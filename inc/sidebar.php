@@ -16,7 +16,7 @@
                                                 </div>
                                                 <div class='col-8'>
                                                   <div class='card-body py-0'>
-                                                    <h5 class='card-title lh-1'><a href='view_news.php' class='stretched-link fs-14 fw-bold'>ppo Reno8 Lite leaks: a rebranded Reno7 Lite for Europe</a></h5>
+                                                    <h5 class='card-title oswald-font lh-1'><a href='view_news.php' class='stretched-link fs-14 fw-bold'>ppo Reno8 Lite leaks: a rebranded Reno7 Lite for Europe</a></h5>
                                                     <div class='card-text fs-13'>
                                                         <span>&#8358;5,000</span>
                                                         <span class='bg-success px-1 rounded text-light'>UNIBEN</span>
@@ -50,7 +50,7 @@
 
                                foreach ([1,2,3,4,5] as $key => $value) {
 
-                                  echo  "<h5 class='lh-1 border-bottom py-2'><a href='view_news.php' class='fs-14 fw-bold'>&#187; Ppo Reno8 Lite leaks</a></h5>";
+                                  echo  "<h5 class='lh-1 border-bottom oswald-font py-2'><a href='view_news.php' class='fs-14 fw-bold'>&#187; Ppo Reno8 Lite leaks</a></h5>";
 
                                 }
 
@@ -79,7 +79,7 @@
                                                 <div class='col-9'>
                                                   <div class='card-body py-0'>
                                                     <h5 class='card-title lh-1'>
-                                                    <a href='view_news.php' class='stretched-link fs-14 fw-bold'>JAMB exam for 2022 UTME candidates begins</a></h5>
+                                                    <a href='view_news.php' class='stretched-link oswald-font fs-14 fw-bold'>JAMB exam for 2022 UTME candidates begins</a></h5>
                                                   </div>
                                                 </div>
                                               </div>

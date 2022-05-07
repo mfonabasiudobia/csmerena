@@ -3,3 +3,11 @@
 		width:  1050px !important;
 	}
 }
+
+@media (max-width: 700px) {
+	.card-list h5.card-title {
+		font-size: 16px !important;
+	}
+
+}
+

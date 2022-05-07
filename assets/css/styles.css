@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,500;1,600;1,700;1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,500;1,600;1,700;1,800&display=swap");
 @import url("utilities.css?id=5");
-@import url("media-queries.css?id=1");
+@import url("media-queries.css?id=2");
 
 /* HEADER */
 .top-header .right a, .mobile-nav .socials a {
@@ -300,5 +300,5 @@
 
 .object-cover {
     object-fit: cover;
-    
+
 }
