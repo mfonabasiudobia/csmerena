@@ -57,8 +57,8 @@
                                foreach ([1,2,3,4] as $key => $value) {
                                   echo  "<div class='card bg-white p-0'>
                                               <div class='row g-0'>
-                                                <div class='col-4'>
-                                                  <img src='assets/images/gsmarena_00.jpg' class='w-100 h-100' alt='...'>
+                                                <div class='col-4 left'>
+                                                  <img src='assets/images/gsmarena_00.jpg' alt='...'>
                                                 </div>
                                                 <div class='col-8'>
                                                   <div class='card-body'>
@@ -115,8 +115,8 @@
                                foreach ([1,2,3] as $key => $value) {
                                   echo  "<div class='card bg-white p-0'>
                                               <div class='row g-0'>
-                                                <div class='col-4'>
-                                                  <img src='assets/images/gsmarena_001.jpg' class='w-100 h-100' alt='...'>
+                                                <div class='col-4 left'>
+                                                  <img src='assets/images/gsmarena_001.jpg'  alt='...'>
                                                 </div>
                                                 <div class='col-8'>
                                                   <div class='card-body'>
@@ -151,8 +151,8 @@
                                foreach ([1,2,3,4] as $key => $value) {
                                   echo  "<div class='card bg-white p-0'>
                                               <div class='row g-0'>
-                                                <div class='col-4'>
-                                                  <img src='assets/images/gsmarena_002.jpg' class='w-100 h-100' alt='...'>
+                                                <div class='col-4 left'>
+                                                  <img src='assets/images/ian-schneider-WymR2nYtj5M-unsplash.jpg' alt='...'>
                                                 </div>
                                                 <div class='col-8'>
                                                   <div class='card-body'>

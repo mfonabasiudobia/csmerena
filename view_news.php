@@ -62,6 +62,11 @@
                         <img src="assets/images/gsmarena_00.jpg" class="blog-image">
 
                         <p>Last year Samsung had some exclusive paint jobs for devices, purchased from its online store, and some users even had the option to mix and match panels with hinges. We expect these exclusive deals and features to remain because they bring the Korean maker ahead of its competitors, especially when more and more foldable phones are arriving on the market.</p>
+
+
+                        <blockquote class="blockquote border-warning">
+                              <p>A well-known quote, contained in a blockquote element.option to mix and match panels with hinges. We expect these exclusive deals and features to remain because they bring the Korean maker ahead of its competitors, especially <a href="#">Reprinting</a></p>
+                        </blockquote>
                           
                       </section>
 
