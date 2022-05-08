@@ -56,7 +56,7 @@
 
                       <section class="blog-content">
 
-                        <p>The Black and Gray choices for Z Fold4 are not new - we had them on the Z Fold3 was announced, although they were called Phantom Black and Phantom Silver. Looking at the clamshell, Black is getting lighter to the point of arriving as Gray, the Cream option will be named Gold, and the Lavender is staying.</p>
+                        <p>The Black and Gray choices for Z Fold4 are not new - we had them on the Z Fold3 was announced, although they were called Phantom Black and Phantom Silver. <a href="#">Looking at the clamshell,</a> Black is getting lighter to the point of arriving as Gray, the Cream option will be named Gold, and the Lavender is staying.</p>
 
 
                         <img src="assets/images/gsmarena_00.jpg" class="blog-image">

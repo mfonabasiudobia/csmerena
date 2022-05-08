@@ -176,6 +176,10 @@
     padding: 10px;
 }
 
+.blog-content a {
+    color: var(--blue-900);
+}
+
 .blog-image {
     object-fit: cover;
     width:  100%;
