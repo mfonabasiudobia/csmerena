@@ -129,6 +129,121 @@
                                               <a href='#'><i class='fas fa-reply-all'></i> Reply</a>
                                           </footer>
                                       </main>
+
+                                      <section class='ms-4 nested-comment-x1'>
+                                         <section class='col-12'>
+                                             <main>
+                                                 <div class='d-flex align-items-start border-bottom pb-2'>
+                                                  <div>
+                                                        <div class='icon'>?</div>
+                                                  </div>
+                                                  <div class='w-100'>
+                                                      <header class='d-flex align-items-center justify-content-between'>
+                                                         <div> <span class='name'>Anonymous</span></div>
+                                                         <div>
+                                                             <span class='me-3'><i class='far fa-clock'></i> 44 minutes ago</span>
+                                                            
+                                                            <span>
+                                                              <a href='#'><i class='fas fa-chevron-up'></i> <span>5</span></a>&nbsp; | &nbsp;
+                                                              <a href='#'><i class='fas fa-chevron-down'></i> <span>6</span></a>
+                                                          </span>
+                                                         </div>
+                                                      </header>
+                                                      <p>Make it wider! .</p>
+                                                      </div>
+                                                  </div>
+                                                  <footer class='d-flex justify-content-end text-sm'>
+                                                      <a href='#'><i class='fas fa-reply-all'></i> Reply</a>
+                                                  </footer>
+                                             </main>
+
+                                             <section class='ms-4 nested-comment-x2'>
+                                         <section class='col-12'>
+                                             <main>
+                                                 <div class='d-flex align-items-start border-bottom pb-2'>
+                                                  <div>
+                                                        <div class='icon'>?</div>
+                                                  </div>
+                                                  <div class='w-100'>
+                                                      <header class='d-flex align-items-center justify-content-between'>
+                                                         <div> <span class='name'>Anonymous</span></div>
+                                                         <div>
+                                                             <span class='me-3'><i class='far fa-clock'></i> 44 minutes ago</span>
+                                                            
+                                                            <span>
+                                                              <a href='#'><i class='fas fa-chevron-up'></i> <span>5</span></a>&nbsp; | &nbsp;
+                                                              <a href='#'><i class='fas fa-chevron-down'></i> <span>6</span></a>
+                                                          </span>
+                                                         </div>
+                                                      </header>
+                                                      <p>Make it wider! .</p>
+                                                      </div>
+                                                  </div>
+                                                  <footer class='d-flex justify-content-end text-sm'>
+                                                      <a href='#'><i class='fas fa-reply-all'></i> Reply</a>
+                                                  </footer>
+                                             </main>
+                                         </section>
+
+                                          <section class='col-12'>
+                                             <main>
+                                                 <div class='d-flex align-items-start border-bottom pb-2'>
+                                                  <div>
+                                                        <div class='icon'>?</div>
+                                                  </div>
+                                                  <div class='w-100'>
+                                                      <header class='d-flex align-items-center justify-content-between'>
+                                                         <div> <span class='name'>Anonymous</span></div>
+                                                         <div>
+                                                             <span class='me-3'><i class='far fa-clock'></i> 44 minutes ago</span>
+                                                            
+                                                            <span>
+                                                              <a href='#'><i class='fas fa-chevron-up'></i> <span>5</span></a>&nbsp; | &nbsp;
+                                                              <a href='#'><i class='fas fa-chevron-down'></i> <span>6</span></a>
+                                                          </span>
+                                                         </div>
+                                                      </header>
+                                                      <p>Make it wider! .</p>
+                                                      </div>
+                                                  </div>
+                                                  <footer class='d-flex justify-content-end text-sm'>
+                                                      <a href='#'><i class='fas fa-reply-all'></i> Reply</a>
+                                                  </footer>
+                                             </main>
+                                         </section>
+                                         
+                                      </section>
+
+                                         </section>
+
+                                          <section class='col-12'>
+                                             <main>
+                                                 <div class='d-flex align-items-start border-bottom pb-2'>
+                                                  <div>
+                                                        <div class='icon'>?</div>
+                                                  </div>
+                                                  <div class='w-100'>
+                                                      <header class='d-flex align-items-center justify-content-between'>
+                                                         <div> <span class='name'>Anonymous</span></div>
+                                                         <div>
+                                                             <span class='me-3'><i class='far fa-clock'></i> 44 minutes ago</span>
+                                                            
+                                                            <span>
+                                                              <a href='#'><i class='fas fa-chevron-up'></i> <span>5</span></a>&nbsp; | &nbsp;
+                                                              <a href='#'><i class='fas fa-chevron-down'></i> <span>6</span></a>
+                                                          </span>
+                                                         </div>
+                                                      </header>
+                                                      <p>Make it wider! .</p>
+                                                      </div>
+                                                  </div>
+                                                  <footer class='d-flex justify-content-end text-sm'>
+                                                      <a href='#'><i class='fas fa-reply-all'></i> Reply</a>
+                                                  </footer>
+                                             </main>
+                                         </section>
+
+                                      </section>
                             </div>
                             ";
                           }
