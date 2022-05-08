@@ -13,6 +13,8 @@
     <div class="page-wrapper">
         <?php require_once("inc/header.php"); ?>
 
+        <?php require_once("inc/top-ads.php"); ?>
+
         <section>
             <div class="container">
                 
