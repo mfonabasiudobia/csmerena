@@ -101,7 +101,7 @@
                                                       <i class='fas fa-chevron-circle-up'></i> 200
                                                   </div>
                                              </div>
-                                              <div>
+                                              <div class='w-100'>
                                                   <header class='d-flex align-items-center justify-content-between'>
                                                      <div> <span class='name'>Anonymous</span></div>
                                                      <div>
@@ -109,7 +109,7 @@
                                                          <span><i class='fas fa-map-marker-alt'></i> Snu</span>
                                                      </div>
                                                   </header>
-                                                  <p>Make it wider! Samsung went crazy on the tall thin phones, which is nice for reading, but hard for my short thumb to reach the top. Watching videos is better on a wider phone too.</p>
+                                                  <p>Make it wider! Sams</p>
                                               </div>
                                           </div>
                                           <footer class='d-flex justify-content-between text-sm'>
