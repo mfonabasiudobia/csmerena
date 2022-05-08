@@ -139,8 +139,14 @@
 }
 
 .view-news-header-bg {
-    background-image: url("../images/imgonline-com-ua-blur-b2yCOZmUNHzHsxzm.jpg");
     background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    z-index: 0;
+    filter: blur(8px);
     background-repeat: no-repeat;
 }
 

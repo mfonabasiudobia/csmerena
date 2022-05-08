@@ -22,7 +22,8 @@
 
                     <div class="col-lg-8 order-1 order-md-2 bg-white border p-0 view-news">
 
-                      <section class="text-white position-relative view-news-header-bg ">
+                     <section class="text-white position-relative overflow-hidden">
+                        <div class="view-news-header-bg " style="background-image: url('./assets/images/gsmarena_04.jpg');"></div>
 
                           <header x-data="{ isSocialsOpen : false }" class="px-2 position-relative z-10 d-flex justify-content-end align-items-center" style="background: rgba(168, 157, 179, 0.6);border: 1px solid #bbb">
 
@@ -37,7 +38,7 @@
                              </button>
                           </header>
 
-                          <main class="d-flex flex-column align-items-start justify-content-end p-3 position-relative z-10 pt-5" style="background: rgba(201, 185, 219, 0.2);">
+                          <main class="d-flex flex-column align-items-start justify-content-end p-3 position-relative z-10 pt-5" style="background: rgba(201, 185, 219, 0.6);">
 
                                <div class="bg-gray-100 text-gray-500 fs-25 px-2 py-0">Comments</div> 
                               <h1 class="fw-bold text-shadow">Samsung Galaxy Z Fold4 to come in Beige, Z Flip4 will have Blue variant</h1>
