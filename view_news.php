@@ -115,7 +115,11 @@
                                                      <div> <span class='name'>Anonymous</span></div>
                                                      <div>
                                                          <span class='me-3'><i class='far fa-clock'></i> 44 minutes ago</span>
-                                                         <span><i class='fas fa-map-marker-alt'></i> Snu</span>
+                                                        
+                                                        <span>
+                                                          <a href='#'><i class='fas fa-chevron-up'></i> <span>5</span></a>&nbsp; | &nbsp;
+                                                          <a href='#'><i class='fas fa-chevron-down'></i> <span>6</span></a>
+                                                      </span>
                                                      </div>
                                                   </header>
                                                   <p>Make it wider! .</p>
