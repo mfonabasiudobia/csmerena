@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,500;1,600;1,700;1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,500;1,600;1,700;1,800&display=swap");
-@import url("utilities.css?id=6");
+@import url("utilities.css?id=7");
 @import url("media-queries.css?id=2");
 
 /* HEADER */
@@ -38,8 +38,8 @@
 }
 
 .top-header .right a:hover, .mobile-nav .socials a:hover {
-    background-color: var(--red-900) !important;
-    color:  var(--gray-100) !important;
+    /*background-color: var(--red-900) !important;*/
+    /*color:  var(--gray-100) !important;*/
     top:  3px;
 }
 
@@ -69,7 +69,7 @@
 }
 
 .mobile-nav li a {
-    padding: 10px 17px;
+    padding: 5px 17px;
     color:  var(--gray-500);
 }
 
@@ -77,8 +77,20 @@
     position: fixed;
     top: 50px;
     width:  100%;
-    min-height: 100vh;
+    min-height: 50vh;
     z-index: 100;
+}
+
+.mobile-nav::after {
+    content: '';
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    opacity: 0.3;
 }
 
 .mobile-nav li a {

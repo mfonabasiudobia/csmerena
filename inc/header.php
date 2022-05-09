@@ -8,9 +8,9 @@
                   </span>
     </div>
 </div>
-<section class="bg-gray-200 top-header">
+<section class="bg-gray-200 top-header relative z-50">
     <div class="container text-gray-100 my-0">
-        <div class="row bg-gray-500 py-2">
+        <div class="row  bg-gray-500 py-2" :class="nav ? 'bg-gray-200' : ''">
             <div class="col d-flex justify-content-start align-items-center left">
                 <button class="btn text-gray-100 d-block d-md-none" x-on:click="nav = !nav">
                     <i :class="nav ? 'fas fa-times' : 'fas fa-bars'" ></i>
@@ -105,32 +105,32 @@
          </ul>
 </nav>
 
-<nav class="mobile-nav bg-gray-200 text-gray-100 overflow-auto d-md-none" :class="nav ? 'd-block d-md-none' : 'd-none'">
-        <div class="container socials d-flex justify-content-center pt-2">
-                <a href="#" class="me-2 fs-18">
+<section class="mobile-nav" :class="nav ? 'd-block d-md-none' : 'd-none'" >
+<nav class="bg-gray-500 text-gray-100 overflow-auto d-md-none position-relative z-50" >
+        <div class="container socials px-3 d-flex justify-content-center pt-2">
+                <a href="#" class="flex-fill fs-18">
                     <i class="fas fa-lightbulb"></i>
                 </a>
                   
-                <a href="#" class="me-2 fs-18">
+                <a href="#" class="flex-fill fs-18">
                     <i class="fab fa-youtube"></i>
-
                 </a>
 
-                <a href="#" class="me-2 fs-18">
+                <a href="#" class="flex-fill fs-18">
                     <i class="fas fa-rss"></i>
                 </a>
 
 
-                <a href="#" class="me-2 fs-18">
+                <a href="#" class="flex-fill fs-18">
                     <i class="fab fa-instagram"></i>
                 </a>
 
-                <a href="#" class="me-2 fs-18">
+                <a href="#" class="flex-fill fs-18">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
         </div>
         
-        <div class="row gy-4 mt-2 mx-4">
+        <div class="row gy-4 mx-4 py-3 text-uppercase fs-13">
             <div class="col-4 px-0">
                 <ul class="list-style-none border-end border-secondary">
                     <li class="flex-fill"><a href="#">Home</a></li>
@@ -190,4 +190,5 @@
             </div>
         </div>
 </nav>
+</section>
 </header>

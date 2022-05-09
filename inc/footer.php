@@ -82,12 +82,13 @@
          </ul>
         </nav>
         <section class="fs-14 bg-black py-3 d-grid gap-3 d-flex flex-column text-center justify-content-center align-items-center">
-            <div class="d-flex align-items-center justify-content-center">
-                            <a href="#" class="me-3"><i class="fs-17 fab fa-facebook"></i></a>
-                            <a href="#" class="me-3"><i class="fs-17 fab fa-twitter-square"></i></a>
-                            <a href="#" class="me-3"><i class="fs-17 fab fa-youtube"></i></a>
-                            <a href="#" class="me-3"><i class="fs-17 fab fa-instagram"></i></a>
-            </div>
+            <ul class="container  px-3 my-0 d-flex align-items-center overflow-auto list-style-none">
+                <li class="flex-fill"><a href="#" class="text-white"><i class="fs-19 fab fa-facebook-f"></i></a></li>
+                <li class="flex-fill"><a href="#" class="text-white"><i class="fs-19 fab fa-twitter"></i></a></li>
+                <li class="flex-fill"><a href="#" class="text-white"><i class="fs-19 fab fa-youtube"></i></a></li>
+                <li class="flex-fill"><a href="#" class="text-white"><i class="fs-19 fab fa-instagram"></i></a></li>
+             </ul>
+
             <div>&copy; 2000-2022 GSMArena.com</div>
             <div class="d-flex align-items-center justify-content-center">
                             <a href="#" class="me-3 text-white">Privacy</a>
