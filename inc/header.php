@@ -109,41 +109,85 @@
         <div class="container socials d-flex justify-content-center pt-2">
                 <a href="#" class="me-2 fs-18">
                     <i class="fas fa-lightbulb"></i>
-                    <span>TIP US</span>
                 </a>
-                    <!-- :class="nav ? 'inline-block' : 'd-none' " -->
+                  
                 <a href="#" class="me-2 fs-18">
                     <i class="fab fa-youtube"></i>
-                    <span>1.9M</span>
+
                 </a>
 
                 <a href="#" class="me-2 fs-18">
                     <i class="fas fa-rss"></i>
-                    <span>RSS</span>
                 </a>
 
 
                 <a href="#" class="me-2 fs-18">
                     <i class="fab fa-instagram"></i>
-                    <span>1.9M</span>
                 </a>
 
                 <a href="#" class="me-2 fs-18">
                     <i class="fas fa-shopping-cart"></i>
-                    <span>CART</span>
                 </a>
         </div>
-        <ul class="container">
-            <li class="flex-fill"><a href="#">Home</a></li>
-            <li class="flex-fill"><a href="#">News</a></li>
-            <li class="flex-fill"><a href="#">Reviews</a></li>
-            <li class="flex-fill"><a href="#">Videos</a></li>
-            <li class="flex-fill"><a href="#">Features</a></li>
-            <li class="flex-fill"><a href="#">Phone number</a></li>
-            <li class="flex-fill"><a href="marketplace.php">Buy an Item</a></li>
-            <li class="flex-fill"><a href="#">Merge</a></li>
-            <li class="flex-fill"><a href="#">Coverage</a></li>
-            <li class="flex-fill"><a href="#">Contact</a></li>
-         </ul>
+        
+        <div class="row gy-3 mt-2">
+            <div class="col-4">
+                <ul class="list-style-none border-end">
+                    <li class="flex-fill"><a href="#">Home</a></li>
+                    <li class="flex-fill"><a href="#">News</a></li>
+                    <li class="flex-fill"><a href="#">Reviews</a></li>
+                    <li class="flex-fill"><a href="#">Videos</a></li>
+                 </ul>
+            </div>
+
+            <div class="col-4">
+                <ul class="list-style-none border-end">
+                    <li class="flex-fill"><a href="#">Home</a></li>
+                    <li class="flex-fill"><a href="#">News</a></li>
+                    <li class="flex-fill"><a href="#">Reviews</a></li>
+                    <li class="flex-fill"><a href="#">Videos</a></li>
+                 </ul>
+            </div>
+
+
+            <div class="col-4">
+                <ul class="list-style-none">
+                    <li class="flex-fill"><a href="#">Home</a></li>
+                    <li class="flex-fill"><a href="#">News</a></li>
+                    <li class="flex-fill"><a href="#">Reviews</a></li>
+                    <li class="flex-fill"><a href="#">Videos</a></li>
+                 </ul>
+            </div>
+
+
+            <div class="col-4">
+                <ul class="list-style-none border-end">
+                    <li class="flex-fill"><a href="#">Home</a></li>
+                    <li class="flex-fill"><a href="#">News</a></li>
+                    <li class="flex-fill"><a href="#">Reviews</a></li>
+                    <li class="flex-fill"><a href="#">Videos</a></li>
+                 </ul>
+            </div>
+
+
+            <div class="col-4">
+                <ul class="list-style-none border-end">
+                    <li class="flex-fill"><a href="#">Home</a></li>
+                    <li class="flex-fill"><a href="#">News</a></li>
+                    <li class="flex-fill"><a href="#">Reviews</a></li>
+                    <li class="flex-fill"><a href="#">Videos</a></li>
+                 </ul>
+            </div>
+
+
+            <div class="col-4">
+                <ul class="list-style-none">
+                    <li class="flex-fill"><a href="#">Home</a></li>
+                    <li class="flex-fill"><a href="#">News</a></li>
+                    <li class="flex-fill"><a href="#">Reviews</a></li>
+                    <li class="flex-fill"><a href="#">Videos</a></li>
+                 </ul>
+            </div>
+        </div>
 </nav>
 </header>

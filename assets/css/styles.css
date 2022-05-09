@@ -16,6 +16,10 @@
     top:  0;
 }
 
+.btn, input {
+    box-shadow: none !important;
+}
+
 .top-header .right a span, .mobile-nav .socials a span {
     position: absolute;
     top:  -5px;
@@ -81,10 +85,6 @@
 .mobile-nav li a:hover {
     background-color: var(--gray-500);
     color: #fff;
-}
-
-.mobile-nav li a {
-    border-bottom: 1px solid #aaa;
 }
 
 .destop-nav li a:hover,.destop-nav li a.search {
