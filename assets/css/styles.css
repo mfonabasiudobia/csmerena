@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,500;1,600;1,700;1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,500;1,600;1,700;1,800&display=swap");
-@import url("utilities.css?id=6");
+@import url("utilities.css?id=5");
 @import url("media-queries.css?id=2");
 
 /* HEADER */
@@ -340,7 +340,7 @@
     margin: 10px;
 }
 
-.blockquote a, .authentication a {
+.blockquote a, .authentication a, .table a, .coloured-links a {
     color: var(--blue-900);
 }
 
@@ -386,4 +386,38 @@
 .tagged-news .tags a:hover {
     background-color: var(--red-900);
     color: #fff;
+}
+
+.bg-transparent-black {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.text-transparent-black {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.table img, .list-group-item img {
+    width:  50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.list-group-item {
+    font-size: 14px;
+}
+
+.accordion-item .accordion-button div {
+    width:  30px;
+}
+
+.remove-arrow::after {
+    display: none;
+}
+
+.dashboard-sidebar a {
+    text-decoration: none;
+}
+
+.dashboard-sidebar a:hover {
+    opacity: 0.7;
 }

@@ -2,7 +2,6 @@
 * {
   box-sizing: border-box;
   transition: all 0.1s;
-  box-shadow: none !important;
   word-wrap: break-word;
 }
 
@@ -16,7 +15,7 @@
   --gray-600: #ccc;
   --gray-700: #F0F0F0;
   --red-900 : #d50000;
-  --blue-900:  #4D64A4;
+  --blue-900:  #0d6efd;/*#4D64A4;*/
   --blue-300 : #2da2de;
   --pink-500:  #db80ea;
   /*#0d6efd*/
