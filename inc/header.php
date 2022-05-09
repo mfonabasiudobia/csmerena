@@ -130,9 +130,9 @@
                 </a>
         </div>
         
-        <div class="row gy-3 mt-2">
-            <div class="col-4">
-                <ul class="list-style-none border-end">
+        <div class="row gy-4 mt-2 px-2">
+            <div class="col-4 px-0">
+                <ul class="list-style-none border-end border-secondary">
                     <li class="flex-fill"><a href="#">Home</a></li>
                     <li class="flex-fill"><a href="#">News</a></li>
                     <li class="flex-fill"><a href="#">Reviews</a></li>
@@ -140,18 +140,8 @@
                  </ul>
             </div>
 
-            <div class="col-4">
-                <ul class="list-style-none border-end">
-                    <li class="flex-fill"><a href="#">Home</a></li>
-                    <li class="flex-fill"><a href="#">News</a></li>
-                    <li class="flex-fill"><a href="#">Reviews</a></li>
-                    <li class="flex-fill"><a href="#">Videos</a></li>
-                 </ul>
-            </div>
-
-
-            <div class="col-4">
-                <ul class="list-style-none">
+            <div class="col-4 px-0">
+                <ul class="list-style-none border-end border-secondary">
                     <li class="flex-fill"><a href="#">Home</a></li>
                     <li class="flex-fill"><a href="#">News</a></li>
                     <li class="flex-fill"><a href="#">Reviews</a></li>
@@ -160,8 +150,8 @@
             </div>
 
 
-            <div class="col-4">
-                <ul class="list-style-none border-end">
+            <div class="col-4 px-0">
+                <ul class="list-style-none border-secondary">
                     <li class="flex-fill"><a href="#">Home</a></li>
                     <li class="flex-fill"><a href="#">News</a></li>
                     <li class="flex-fill"><a href="#">Reviews</a></li>
@@ -170,8 +160,8 @@
             </div>
 
 
-            <div class="col-4">
-                <ul class="list-style-none border-end">
+            <div class="col-4 px-0">
+                <ul class="list-style-none border-end border-secondary">
                     <li class="flex-fill"><a href="#">Home</a></li>
                     <li class="flex-fill"><a href="#">News</a></li>
                     <li class="flex-fill"><a href="#">Reviews</a></li>
@@ -180,8 +170,18 @@
             </div>
 
 
-            <div class="col-4">
-                <ul class="list-style-none">
+            <div class="col-4 px-0">
+                <ul class="list-style-none border-end border-secondary">
+                    <li class="flex-fill"><a href="#">Home</a></li>
+                    <li class="flex-fill"><a href="#">News</a></li>
+                    <li class="flex-fill"><a href="#">Reviews</a></li>
+                    <li class="flex-fill"><a href="#">Videos</a></li>
+                 </ul>
+            </div>
+
+
+            <div class="col-4 px-0">
+                <ul class="list-style-none border-secondary">
                     <li class="flex-fill"><a href="#">Home</a></li>
                     <li class="flex-fill"><a href="#">News</a></li>
                     <li class="flex-fill"><a href="#">Reviews</a></li>
