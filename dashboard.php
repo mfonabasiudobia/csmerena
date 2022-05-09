@@ -248,7 +248,7 @@
                         </section>
 
 
-                        <section class="row">
+                        <section class="row g-3">
                              <div class="col-md-6">
                                  <div class="card coloured-links border">
                                       <div class="card-header">
