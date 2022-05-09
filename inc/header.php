@@ -130,7 +130,7 @@
                 </a>
         </div>
         
-        <div class="row gy-4 mt-2 px-2">
+        <div class="row gy-4 mt-2 mx-4">
             <div class="col-4 px-0">
                 <ul class="list-style-none border-end border-secondary">
                     <li class="flex-fill"><a href="#">Home</a></li>

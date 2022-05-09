@@ -62,10 +62,15 @@
 
 
 
-.destop-nav li a, .mobile-nav li a {
+.destop-nav li a {
     padding: 10px 17px;
     color:  var(--gray-500);
     font-family: 'Oswald';
+}
+
+.mobile-nav li a {
+    padding: 10px 17px;
+    color:  var(--gray-500);
 }
 
 .mobile-nav {
