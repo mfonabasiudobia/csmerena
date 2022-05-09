@@ -77,8 +77,16 @@
     position: fixed;
     top: 50px;
     width:  100%;
-    min-height: 50vh;
     z-index: 100;
+}
+
+.h-50h {
+    min-height: 50vh;
+}
+
+.h-0 {
+    height: 0;
+    overflow: hidden;
 }
 
 .mobile-nav::after {

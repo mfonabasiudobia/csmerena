@@ -105,8 +105,8 @@
          </ul>
 </nav>
 
-<section class="mobile-nav" :class="nav ? 'd-block d-md-none' : 'd-none'" >
-<nav class="bg-gray-500 text-gray-100 overflow-auto d-md-none position-relative z-50" >
+<section class="mobile-nav" x-transition :class="nav ? 'h-50h  d-md-none' : 'h-0 -z-10'" >
+<nav class="bg-gray-500 py-3 text-gray-100 overflow-auto d-md-none position-relative z-50" >
         <div class="container socials px-3 d-flex justify-content-center pt-2">
                 <a href="#" class="flex-fill fs-18">
                     <i class="fas fa-lightbulb"></i>
