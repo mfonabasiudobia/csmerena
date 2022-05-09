@@ -1,6 +1,6 @@
 <header x-data="{nav : false, search : false}">
 
-<div class="p-2" x-show="search">
+<div class="p-2 d-md-none" x-show="search">
     <div class="input-group container">
                   <input type="text" class="form-control fs-12 bg-gray-100" placeholder="Search..">
                   <span class="input-group-text bg-red-900 text-gray-100">
