@@ -105,7 +105,7 @@
          </ul>
 </nav>
 
-<nav class="mobile-nav bg-gray-200 text-gray-100 overflow-auto" :class="nav ? 'd-block d-md-none' : 'd-none'">
+<nav class="mobile-nav bg-gray-200 text-gray-100 overflow-auto d-md-none" :class="nav ? 'd-block d-md-none' : 'd-none'">
         <div class="container socials d-flex justify-content-center pt-2">
                 <a href="#" class="me-2 fs-18">
                     <i class="fas fa-lightbulb"></i>
