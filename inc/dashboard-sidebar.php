@@ -1,12 +1,14 @@
 <div class="col-lg-3 overflow-hidden" x-data="{ show : true}">
 
+
+
 <div class="d-block d-md-none">
     <a class="btn p-0 text-decoration-none" x-on:click='show = !show'>
       <i class="fas fa-bars border p-2 bg-white"></i>
       <span>Dashboard Menu</span>
     </a>
 </div>
-<div class="accordion accordion-flush border dashboard-sidebar" :class="show ? 'd-none d-md-block' : 'd-block'">
+<div class="accordion accordion-flush border dashboard-sidebar"  id="dashboard-accordion" :class="show ? 'd-none d-md-block' : 'd-block'">
 
   <div class="accordion-item">
     <h2 class="accordion-header">
@@ -29,7 +31,7 @@
         <span>Blog</span>
       </button>
     </h2>
-    <div id="flush-blog" class="accordion-collapse collapse" >
+    <div id="flush-blog" class="accordion-collapse collapse" data-bs-parent="#dashboard-accordion">
       <div class="accordion-body">
         <ul class="list-style-none fs-14 d-grid gap-2">
           <li>
@@ -59,7 +61,7 @@
          <span>Events</span>
       </button>
     </h2>
-    <div id="flush-events" class="accordion-collapse collapse" >
+    <div id="flush-events" class="accordion-collapse collapse" data-bs-parent="#dashboard-accordion">
       <div class="accordion-body">
         <ul class="list-style-none fs-14 d-grid gap-2">
           <li>
@@ -91,7 +93,7 @@
          <span>Users</span>
       </button>
     </h2>
-    <div id="flush-users" class="accordion-collapse collapse" >
+    <div id="flush-users" class="accordion-collapse collapse" data-bs-parent="#dashboard-accordion">
       <div class="accordion-body">
         <ul class="list-style-none fs-14 d-grid gap-2">
           <li>
