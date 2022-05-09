@@ -114,18 +114,20 @@
                                                   <header class='d-flex align-items-center justify-content-between'>
                                                      <div> <span class='name'>Anonymous</span></div>
                                                      <div>
-                                                         <span class='me-3'><i class='far fa-clock'></i> 44 minutes ago</span>
+                                                         <span><i class='far fa-clock'></i> 44 minutes ago</span>
                                                         
-                                                        <span>
-                                                          <a href='#'><i class='fas fa-chevron-up'></i> <span>5</span></a>&nbsp; | &nbsp;
-                                                          <a href='#'><i class='fas fa-chevron-down'></i> <span>6</span></a>
-                                                      </span>
                                                      </div>
                                                   </header>
                                                   <p>Make it wider! .</p>
                                               </div>
                                           </div>
                                           <footer class='d-flex justify-content-end text-sm'>
+
+                                                    <span class='me-2'>
+                                                          <a href='#'><i class='fas fa-chevron-up'></i> <span>5</span></a>&nbsp; | &nbsp;
+                                                          <a href='#'><i class='fas fa-chevron-down'></i> <span>6</span></a>
+                                                      </span>
+
                                               <a href='#'><i class='fas fa-reply-all'></i> Reply</a>
                                           </footer>
                                       </main>
@@ -141,18 +143,18 @@
                                                       <header class='d-flex align-items-center justify-content-between'>
                                                          <div> <span class='name'>Anonymous</span></div>
                                                          <div>
-                                                             <span class='me-3'><i class='far fa-clock'></i> 44 minutes ago</span>
-                                                            
-                                                            <span>
-                                                              <a href='#'><i class='fas fa-chevron-up'></i> <span>5</span></a>&nbsp; | &nbsp;
-                                                              <a href='#'><i class='fas fa-chevron-down'></i> <span>6</span></a>
-                                                          </span>
+                                                             <span><i class='far fa-clock'></i> 44 minutes ago</span>
                                                          </div>
                                                       </header>
                                                       <p>Make it wider! .</p>
                                                       </div>
                                                   </div>
                                                   <footer class='d-flex justify-content-end text-sm'>
+                                                       <span class='me-2'>
+                                                          <a href='#'><i class='fas fa-chevron-up'></i> <span>5</span></a>&nbsp; | &nbsp;
+                                                          <a href='#'><i class='fas fa-chevron-down'></i> <span>6</span></a>
+                                                      </span>
+
                                                       <a href='#'><i class='fas fa-reply-all'></i> Reply</a>
                                                   </footer>
                                              </main>
@@ -168,18 +170,19 @@
                                                       <header class='d-flex align-items-center justify-content-between'>
                                                          <div> <span class='name'>Anonymous</span></div>
                                                          <div>
-                                                             <span class='me-3'><i class='far fa-clock'></i> 44 minutes ago</span>
-                                                            
-                                                            <span>
-                                                              <a href='#'><i class='fas fa-chevron-up'></i> <span>5</span></a>&nbsp; | &nbsp;
-                                                              <a href='#'><i class='fas fa-chevron-down'></i> <span>6</span></a>
-                                                          </span>
+                                                             <span><i class='far fa-clock'></i> 44 minutes ago</span>
                                                          </div>
                                                       </header>
                                                       <p>Make it wider! .</p>
                                                       </div>
                                                   </div>
                                                   <footer class='d-flex justify-content-end text-sm'>
+
+                                                         <span class='me-2'>
+                                                          <a href='#'><i class='fas fa-chevron-up'></i> <span>5</span></a>&nbsp; | &nbsp;
+                                                          <a href='#'><i class='fas fa-chevron-down'></i> <span>6</span></a>
+                                                      </span>
+
                                                       <a href='#'><i class='fas fa-reply-all'></i> Reply</a>
                                                   </footer>
                                              </main>
@@ -195,18 +198,17 @@
                                                       <header class='d-flex align-items-center justify-content-between'>
                                                          <div> <span class='name'>Anonymous</span></div>
                                                          <div>
-                                                             <span class='me-3'><i class='far fa-clock'></i> 44 minutes ago</span>
-                                                            
-                                                            <span>
-                                                              <a href='#'><i class='fas fa-chevron-up'></i> <span>5</span></a>&nbsp; | &nbsp;
-                                                              <a href='#'><i class='fas fa-chevron-down'></i> <span>6</span></a>
-                                                          </span>
+                                                             <span><i class='far fa-clock'></i> 44 minutes ago</span>
                                                          </div>
                                                       </header>
                                                       <p>Make it wider! .</p>
                                                       </div>
                                                   </div>
                                                   <footer class='d-flex justify-content-end text-sm'>
+                                                       <span class='me-2'>
+                                                          <a href='#'><i class='fas fa-chevron-up'></i> <span>5</span></a>&nbsp; | &nbsp;
+                                                          <a href='#'><i class='fas fa-chevron-down'></i> <span>6</span></a>
+                                                      </span>
                                                       <a href='#'><i class='fas fa-reply-all'></i> Reply</a>
                                                   </footer>
                                              </main>
@@ -226,18 +228,18 @@
                                                       <header class='d-flex align-items-center justify-content-between'>
                                                          <div> <span class='name'>Anonymous</span></div>
                                                          <div>
-                                                             <span class='me-3'><i class='far fa-clock'></i> 44 minutes ago</span>
-                                                            
-                                                            <span>
-                                                              <a href='#'><i class='fas fa-chevron-up'></i> <span>5</span></a>&nbsp; | &nbsp;
-                                                              <a href='#'><i class='fas fa-chevron-down'></i> <span>6</span></a>
-                                                          </span>
+                                                             <span><i class='far fa-clock'></i> 44 minutes ago</span>
                                                          </div>
                                                       </header>
                                                       <p>Make it wider! .</p>
                                                       </div>
                                                   </div>
                                                   <footer class='d-flex justify-content-end text-sm'>
+                                                     <span class='me-2'>
+                                                          <a href='#'><i class='fas fa-chevron-up'></i> <span>5</span></a>&nbsp; | &nbsp;
+                                                          <a href='#'><i class='fas fa-chevron-down'></i> <span>6</span></a>
+                                                      </span>
+
                                                       <a href='#'><i class='fas fa-reply-all'></i> Reply</a>
                                                   </footer>
                                              </main>
