@@ -123,9 +123,9 @@
                                           </div>
                                           <footer class='d-flex justify-content-end text-sm'>
 
-                                                    <span class='me-2'>
-                                                          <a href='#'><i class='fas fa-chevron-up'></i> <span>5</span></a>&nbsp; | &nbsp;
-                                                          <a href='#'><i class='fas fa-chevron-down'></i> <span>6</span></a>
+                                                    <span>
+                                                          <a href='#'><i class='far fa-thumbs-up'></i> <span>5</span></a>&nbsp; | &nbsp;
+                                                          
                                                       </span>
 
                                               <a href='#'><i class='fas fa-reply-all'></i> Reply</a>
@@ -150,9 +150,9 @@
                                                       </div>
                                                   </div>
                                                   <footer class='d-flex justify-content-end text-sm'>
-                                                       <span class='me-2'>
-                                                          <a href='#'><i class='fas fa-chevron-up'></i> <span>5</span></a>&nbsp; | &nbsp;
-                                                          <a href='#'><i class='fas fa-chevron-down'></i> <span>6</span></a>
+                                                       <span>
+                                                          <a href='#'><i class='far fa-thumbs-up'></i> <span>5</span></a>&nbsp; | &nbsp;
+                                                          
                                                       </span>
 
                                                       <a href='#'><i class='fas fa-reply-all'></i> Reply</a>
@@ -178,9 +178,9 @@
                                                   </div>
                                                   <footer class='d-flex justify-content-end text-sm'>
 
-                                                         <span class='me-2'>
-                                                          <a href='#'><i class='fas fa-chevron-up'></i> <span>5</span></a>&nbsp; | &nbsp;
-                                                          <a href='#'><i class='fas fa-chevron-down'></i> <span>6</span></a>
+                                                         <span>
+                                                          <a href='#'><i class='far fa-thumbs-up'></i> <span>5</span></a>&nbsp; | &nbsp;
+                                                          
                                                       </span>
 
                                                       <a href='#'><i class='fas fa-reply-all'></i> Reply</a>
@@ -205,9 +205,9 @@
                                                       </div>
                                                   </div>
                                                   <footer class='d-flex justify-content-end text-sm'>
-                                                       <span class='me-2'>
-                                                          <a href='#'><i class='fas fa-chevron-up'></i> <span>5</span></a>&nbsp; | &nbsp;
-                                                          <a href='#'><i class='fas fa-chevron-down'></i> <span>6</span></a>
+                                                       <span>
+                                                          <a href='#'><i class='far fa-thumbs-up'></i> <span>5</span></a>&nbsp; | &nbsp;
+                                                          
                                                       </span>
                                                       <a href='#'><i class='fas fa-reply-all'></i> Reply</a>
                                                   </footer>
@@ -235,9 +235,9 @@
                                                       </div>
                                                   </div>
                                                   <footer class='d-flex justify-content-end text-sm'>
-                                                     <span class='me-2'>
-                                                          <a href='#'><i class='fas fa-chevron-up'></i> <span>5</span></a>&nbsp; | &nbsp;
-                                                          <a href='#'><i class='fas fa-chevron-down'></i> <span>6</span></a>
+                                                     <span>
+                                                          <a href='#'><i class='far fa-thumbs-up'></i> <span>5</span></a>&nbsp; | &nbsp;
+                                                          
                                                       </span>
 
                                                       <a href='#'><i class='fas fa-reply-all'></i> Reply</a>
