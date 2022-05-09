@@ -121,13 +121,6 @@ button:hover {
   overflow-x: hidden;
 }
 
-.alert {
-    font-size: 13px !important;
-    padding-top: 5px !important;
-    padding-bottom: 5px !important;
-    font-weight: bold !important;
-}
-
 
 a, a:link,a:visited,a:active {
   color: var(--gray-500);
