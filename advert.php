@@ -24,7 +24,7 @@
 
                     <div class="col-lg-9 view-news">
 
-                    <main class="p-3  border bg-white">
+                    <main class="p-3  border bg-white mb-3">
                         
                      <form x-data="{step1: true, step2: false, step3: false, step4 : false, step5 : false, step6 : false}">
                             <h1>Post Your Advert Information</h1>
