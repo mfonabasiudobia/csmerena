@@ -55,6 +55,7 @@
                               </footer>
                           </section>
 
+                          <?php  if(false){ ?>
                             <div class="row gy-3 m-0 py-0 card-list">
                                <?php
 
@@ -105,6 +106,14 @@
                                                          </a>
                                                      </div>
                              </footer>
+
+                             <?php  }else{ ?>
+
+                                <div class="alert alert-info">
+                                    No Post in this category
+                                </div>
+
+                              <?php  }?>
                         </section>
 
                     </div>
