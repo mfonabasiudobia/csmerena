@@ -454,3 +454,16 @@
 .dashboard-sidebar a:hover {
     opacity: 0.7;
 }
+
+.-left-full {
+    left : 2000px;
+}
+
+.left-0 {
+    left : 0;
+}
+
+.advert-packages-wrapper .advert-package:hover {
+    cursor: pointer;
+    border:  1px solid var(--red-900) !important;
+}
