@@ -16,7 +16,7 @@
         <?php require_once("inc/top-ads.php"); ?>
 
         <section>
-            <div class="container">
+            <div class="container px-0">
                 
                 <div class="row g-3">
                     
@@ -70,7 +70,7 @@
                                 <div class="col-12"> 
                                     <label class="fs-14 fw-light">Category:<span class="text-danger">*</span></label>
                                     <select class="form-select" @keyup="$dispatch('notify')" x-model="category">
-                                        <option>Select Category</option>
+                                        <option hidden selected>Select Category</option>
                                         <option value="name">Name</option>
                                     </select>
                                 </div>
@@ -78,7 +78,7 @@
                                 <div class="col-12"> 
                                     <label class="fs-14 fw-light">Item Condition:<span class="text-danger">*</span></label>
                                     <select class="form-select" @keyup="$dispatch('notify')" x-model="condition">
-                                        <option>Select Item Condition</option>
+                                        <option hidden selected>Select Item Condition</option>
                                         <option value="name">Name</option>
                                     </select>
                                 </div>
@@ -87,7 +87,7 @@
                                 <div class="col-12"> 
                                     <label class="fs-14 fw-light">Institution:</label>
                                     <select class="form-select" @keyup="$dispatch('notify')" x-model="institution">
-                                        <option>Select Institution</option>
+                                        <option hidden selected>Select Institution</option>
                                         <option value="name">Name</option>
                                     </select>
                                 </div>
