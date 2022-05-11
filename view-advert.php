@@ -16,7 +16,7 @@
         <?php require_once("inc/top-ads.php"); ?>
 
         <section>
-            <div class="container px-0">
+            <div class="container">
                 
                 <div class="row g-3">
                     
