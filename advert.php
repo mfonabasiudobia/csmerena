@@ -153,8 +153,6 @@
 
 
                              <section 
-
-                                 x-data="{package : false, isBtn : false}" x-init="$watch('package', value => isBtn = value)"
                                 class="advert-packages-wrapper row g-2 position-relative fs-14" :class="step5 ? 'left-0' : '-left-full h-0'">  
 
                                 <div class="col-12 row g-3"> 
@@ -162,7 +160,7 @@
                                     <section class="col-md-4">
                                         <label class="advert-package block p-3 d-flex align-items-start border" for='package-1'>
                                             <div class="me-3">
-                                                <input type="radio" name="package" x-model='package' id='package-1'>
+                                                <input type="radio" checked name="package" id='package-1'>
                                             </div>
                                             <div>
                                                 <header class="d-flex justify-content-between align-items-center">
@@ -177,7 +175,7 @@
                                     <section class="col-md-4">
                                         <label class="advert-package block p-3 d-flex align-items-start border" for='package-2'>
                                             <div class="me-3">
-                                                <input type="radio" name="package" x-model='package' id='package-2'>
+                                                <input type="radio" name="package" id='package-2'>
                                             </div>
                                             <div>
                                                 <header class="d-flex justify-content-between align-items-center">
@@ -193,7 +191,7 @@
                                     <section class="col-md-4">
                                         <label class="advert-package block p-3 d-flex align-items-start border" for='package-3'>
                                             <div class="me-3">
-                                                <input type="radio" name="package" x-model='package' id='package-3'>
+                                                <input type="radio" name="package" id='package-3'>
                                             </div>
                                             <div>
                                                 <header class="d-flex justify-content-between align-items-center">
@@ -211,7 +209,7 @@
                                 <div class="col-12 d-flex justify-content-between"> 
                                      <button type="button" class="btn load-more bg-red-900 text-white" x-on:click="step4 = !step4;step5 = !step5">BACK</button>
 
-                                     <button type="submit" class="btn load-more bg-red-900 text-white" x-show="isBtn" >SUBMIT</button>
+                                     <button type="submit" class="btn load-more bg-red-900 text-white" >SUBMIT</button>
                                 </div>
 
                             </section>
