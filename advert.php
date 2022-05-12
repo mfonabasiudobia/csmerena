@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
     <link rel="stylesheet" type="text/css" href="<?php echo "./assets/css/styles.css?id=". uniqid(); ?>">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.bootstrap3.min.css"  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.bootstrap3.min.css" />
 </head>
 <body>
 
@@ -59,10 +59,11 @@
 
                             </section>
 
-
                              <section 
                                  x-data="{category : '',condition : '',institution:'', location : '', isBtn : false, button(){
-                                   this.isBtn = this.category.length > 0 && this.location.length > 0  && this.institution.length > 0 && this.condition.length  ? true : false
+                                     let institution = document.getElementById('select2');
+                                     this.institution = institution.value;
+                                     this.isBtn = this.category.length > 0 && this.location.length > 0  && this.institution.length > 0 && this.condition.length  ? true : false;
                                 }}"
                                 @notify="button"
                                 class="row g-3 position-relative py-2" 
@@ -70,7 +71,7 @@
 
                                 <div class="col-12"> 
                                     <label class="fs-14 fw-light">Category:<span class="text-danger">*</span></label>
-                                    <select class="form-select" @keyup="$dispatch('notify')" x-model="category">
+                                    <select class="form-select" x-on:change="$dispatch('notify')" x-model="category">
                                         <option hidden selected>Select Category</option>
                                         <option value="name">Name</option>
                                     </select>
@@ -78,25 +79,24 @@
 
                                 <div class="col-12"> 
                                     <label class="fs-14 fw-light">Item Condition:<span class="text-danger">*</span></label>
-                                    <select class="form-select" @keyup="$dispatch('notify')" x-model="condition">
+                                    <select class="form-select" x-on:change="$dispatch('notify')" x-model="condition">
                                         <option hidden selected>Select Item Condition</option>
                                         <option value="name">Name</option>
                                     </select>
                                 </div>
 
-
                                 <div class="col-12"> 
                                     <label class="fs-14 fw-light">Institution:</label>
-                                    <select class="form-control select2" @keyup="$dispatch('notify')" x-model="institution">
-                                        <option hidden selected>Select Institution</option>
-                                        <option value="name">Name</option>
-                                        <option value="uniuyo">uniuyo</option>
-                                        <option value="unigos">unigos</option>
-                                        <option value="yola">yola</option>
-                                        <option value="unilag">unilag</option>
-                                        <option value="babtunde">babtunde</option>
-                                        <option value="unitoad">unitoad</option>
-                                        <option value="unicap">unicap</option>
+                                    <select class="form-control" id="select2" x-model="institution">
+                                        <option hidden selected value="">Select Institution</option>
+                                        <option value="sss">sss</option>
+                                        <option value="ppp">ppp</option>
+                                        <option value="ooo">ooo</option>
+                                        <option value="vvvv">vvvv</option>
+                                        <option value="eeee">eeee</option>
+                                        <option value="qqqq">qqqq</option>
+                                        <option value="yyyy">yyyy</option>
+                                        <option value="mmmm">mmmm</option>
                                     </select>
                                 </div>
 
@@ -234,12 +234,11 @@
         </section>
         <?php require_once("inc/footer.php"); ?>
 
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-         <script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js" ></script>
-         <script type="text/javascript">
-             $(document).ready(function () {
-              $('.select2').selectize();
-          });
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js" ></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.bootstrap3.min.css" />
+        <script type="text/javascript">
+          $(document).ready(() => $("#select2").selectize());
         </script>
     </div>
 </body>
