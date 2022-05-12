@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
     <link rel="stylesheet" type="text/css" href="<?php echo "./assets/css/styles.css?id=". uniqid(); ?>">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.bootstrap3.min.css"  />
 </head>
 <body>
 
@@ -86,9 +87,16 @@
 
                                 <div class="col-12"> 
                                     <label class="fs-14 fw-light">Institution:</label>
-                                    <select class="form-select" @keyup="$dispatch('notify')" x-model="institution">
+                                    <select class="form-control select2" @keyup="$dispatch('notify')" x-model="institution">
                                         <option hidden selected>Select Institution</option>
                                         <option value="name">Name</option>
+                                        <option value="uniuyo">uniuyo</option>
+                                        <option value="unigos">unigos</option>
+                                        <option value="yola">yola</option>
+                                        <option value="unilag">unilag</option>
+                                        <option value="babtunde">babtunde</option>
+                                        <option value="unitoad">unitoad</option>
+                                        <option value="unicap">unicap</option>
                                     </select>
                                 </div>
 
@@ -225,6 +233,14 @@
             </div>
         </section>
         <?php require_once("inc/footer.php"); ?>
+
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js" ></script>
+         <script type="text/javascript">
+             $(document).ready(function () {
+              $('.select2').selectize();
+          });
+        </script>
     </div>
 </body>
 </html>
