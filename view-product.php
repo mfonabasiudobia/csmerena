@@ -19,10 +19,10 @@
             <div class="container overflow-hidden">
                 
                 <h2>Reno8 Lite leaks: a rebranded Reno7 Lite for Europe</h2>
-                <div class="row gx-4">
+                <div class="row gx-4 bg-white">
                     
                     <section class="col-lg-8 px-0 order-2 order-md-1">
-                        <main class="d-grid gap-3 px-2 bg-white border py-3">
+                        <main class="d-grid gap-3 px-2 border py-3">
                             <section>
                                 <div class="row  gy-3">
                                     <div class="col-md-4">
@@ -126,7 +126,7 @@
                                 </form>
                             </section>
 
-                            <section class="row gy-3 card-list related-ads">
+                            <section class="row gy-3 card-list related-ads overflow-hidden">
                                 <h5 class="oswald-font py-0 lh-0">Related Adverts</h5>
                          <?php
 
