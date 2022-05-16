@@ -22,7 +22,7 @@
                 <div class="row gx-4 bg-white">
                     
                     <section class="col-lg-8 px-0 order-2 order-md-1">
-                        <main class="d-grid gap-3 px-2 border py-3">
+                        <main class="d-grid gap-3 px-2 border py-3 overflow-hidden">
                             <section>
                                 <div class="row  gy-3">
                                     <div class="col-md-4">
@@ -126,7 +126,7 @@
                                 </form>
                             </section>
 
-                            <section class="row gy-3 card-list related-ads overflow-hidden">
+                            <section class="row gy-3 card-list related-ads ">
                                 <h5 class="oswald-font py-0 lh-0">Related Adverts</h5>
                          <?php
 
