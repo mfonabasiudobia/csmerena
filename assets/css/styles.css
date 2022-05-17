@@ -381,23 +381,23 @@
     font-size: 14px;
 }
 
-.pagination a {
+div.pagination a {
     text-decoration: none;
     margin-right: 5px;
 }
 
-.pagination .active {
+div.pagination .active {
     background-color: var(--gray-500);
     color: #fff;
     border: 1px solid #000;
 }
 
-.pagination .inactive {
+div.pagination .inactive {
     background-color: #fff;
     color: var(--gray-500);;
 }
 
-.pagination .inactive:hover {
+div.pagination .inactive:hover {
     background-color: var(--red-900);
     color: #fff;
 }
@@ -466,4 +466,17 @@
 .advert-packages-wrapper .advert-package:hover {
     cursor: pointer;
     border:  1px solid var(--red-900) !important;
+}
+
+.inbox-wrapper .profile-image {
+    width:  50px;
+    height: 50px;
+}
+
+.inbox-wrapper .inbox-item .username {
+    color:  var(--blue-900);
+}
+
+.inbox-wrapper .actions a {
+    text-decoration: none;
 }
