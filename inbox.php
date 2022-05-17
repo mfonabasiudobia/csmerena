@@ -163,9 +163,9 @@
                             </section>
 
                             <footer class="d-flex align-items-center actions">
-                                            <a href="#" class="btn btn-primary text-white me-1">Mark as Read</a>
-                                            <a href="#" class="btn btn-primary text-white me-1">Mark as Unread</a>
-                                            <a href="#" class="btn btn-primary text-white me-1">Delete</a>
+                                            <a href="#" class="btn btn-primary text-white me-1 btn-sm">Mark as Read</a>
+                                            <a href="#" class="btn btn-primary text-white me-1 btn-sm">Mark as Unread</a>
+                                            <a href="#" class="btn btn-primary text-white me-1 btn-sm">Delete</a>
                             </footer>
 
                             <nav aria-label="Page navigation example">
